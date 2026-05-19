@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Home.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Hiding.unity
+    guid: 76cfc3a44d739d84bbafd75be70f99d0
+  - enabled: 1
+    path: Assets/Scenes/Bandaging.unity
+    guid: eaa73b2a6086a404d810b68afab94335
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
