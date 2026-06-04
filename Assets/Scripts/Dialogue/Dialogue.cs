@@ -8,8 +8,7 @@ public class Dialogue : MonoBehaviour
 
     [Header("Referencias UI")]
     public TextMeshProUGUI textoNarracion;
-    //public Button[] botonesUI; // Arrastra aquí tus botones de la UI
-
+    
     public GameObject[] botonesUI;
 
     private Textos plantillaActual;
@@ -23,9 +22,8 @@ public class Dialogue : MonoBehaviour
     {
         plantillaActual = nuevaPlantilla;
         textoNarracion.text = plantillaActual.textoNarrativo;
-        Debug.Log("plantilla: " + plantillaActual.opciones);
+       // Debug.Log("plantilla: " + plantillaActual.opciones);
 
-        // 1. Apagamos botones si es final O si la lista de opciones está vacía (size 0)
         if (plantillaActual.esFinal || plantillaActual.opciones.Length == 0)
         {
             foreach (GameObject boton in botonesUI)
@@ -35,13 +33,11 @@ public class Dialogue : MonoBehaviour
             return;
         }
 
-        // 2. Si no es final y hay opciones, configuramos solo lo que necesitemos
         for (int i = 0; i < botonesUI.Length; i++)
         {
 
             if (botonesUI[i] != null)
             {
-                // ¿El botón existe en la UI y tenemos una opción en el SO para este índice?
                 if (i < plantillaActual.opciones.Length)
                 {
                     botonesUI[i].gameObject.SetActive(true);
@@ -53,7 +49,6 @@ public class Dialogue : MonoBehaviour
                 }
                 else
                 {
-                    // No tenemos opción para este botón, lo apagamos
                     botonesUI[i].gameObject.SetActive(false);
                 }
             }
