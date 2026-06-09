@@ -12,12 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: Dialogoi1
   m_EditorClassIdentifier: 
-  textoNarrativo: "Entonces me dir\xE1s, \xBFcomo te vieron los soldados?"
-  opciones:
-  - textoOpcion: Confesar
-    indiceDestino: 1
-  - textoOpcion: Mentir
-    indiceDestino: 2
-  - textoOpcion: Evitar la Pregunta
-    indiceDestino: 3
+  textoNarrativo: I ! Rapido creo que los soldados.....
+  opciones: []
   esFinal: 0
