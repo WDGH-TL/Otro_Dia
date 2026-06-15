@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -33,7 +34,7 @@ public class Enemy : MonoBehaviour
     {
         if (hasEnemy == true)
         {
-            Debug.Log("Perdiste...");
+            SceneManager.LoadScene("Caught or Lose");
         }
         
     }
