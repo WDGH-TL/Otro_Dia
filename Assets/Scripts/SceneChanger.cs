@@ -12,4 +12,19 @@ public class SceneChanger : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void HidingMinigame()
+    {
+        SceneManager.LoadScene("Hiding");
+    }
+
+    public void Exploration()
+    {
+        SceneManager.LoadScene("Exploration");
+    }
+
+    public void BandagingMinigame()
+    {
+        SceneManager.LoadScene("Bandaging");
+    }
 }
