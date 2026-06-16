@@ -16,5 +16,5 @@ MonoBehaviour:
   textoNarrativo: "Al\xF3 !?"
   opciones: []
   esFinal: 0
-  readOnly: 0
+  hasDestinoNext: 1
   indiceDestinoNext: 7

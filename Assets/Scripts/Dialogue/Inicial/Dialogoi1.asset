@@ -16,5 +16,5 @@ MonoBehaviour:
   textoNarrativo: I ! Rapido creo que los soldados.....
   opciones: []
   esFinal: 0
-  readOnly: 0
+  hasDestinoNext: 1
   indiceDestinoNext: 1
