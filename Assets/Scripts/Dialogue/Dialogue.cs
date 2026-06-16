@@ -7,9 +7,12 @@ public class Dialogue : MonoBehaviour
     public Textos[] todasLasPlantillas;
 
     [Header("Referencias UI")]
+    public TextMeshProUGUI nombre;
     public TextMeshProUGUI textoNarracion;
     
     public GameObject[] botonesUI;
+
+    public GameObject btnNext;
 
     private Textos plantillaActual;
 
@@ -21,6 +24,7 @@ public class Dialogue : MonoBehaviour
     public void MostrarTexto(Textos nuevaPlantilla)
     {
         plantillaActual = nuevaPlantilla;
+        nombre.text = plantillaActual.nombre;
         textoNarracion.text = plantillaActual.textoNarrativo;
        // Debug.Log("plantilla: " + plantillaActual.opciones);
 
@@ -60,6 +64,7 @@ public class Dialogue : MonoBehaviour
        
         if (indiceBoton >= 0 && indiceBoton < plantillaActual.opciones.Length)
         {
+            btnNext.gameObject.SetActive(false);
             int indiceSiguiente = plantillaActual.opciones[indiceBoton].indiceDestino;
 
             if (indiceSiguiente >= 0 && indiceSiguiente < todasLasPlantillas.Length)
@@ -68,6 +73,10 @@ public class Dialogue : MonoBehaviour
             }
            
         }
-        
+        else {
+            int indiceNext = plantillaActual.indiceDestinoNext;
+            btnNext.gameObject.SetActive(true);
+            MostrarTexto(todasLasPlantillas[indiceNext]);
+        }
     }
 }
