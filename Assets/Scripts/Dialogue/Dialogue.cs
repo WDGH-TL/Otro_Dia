@@ -13,13 +13,27 @@ public class Dialogue : MonoBehaviour
     public GameObject[] botonesUI;
 
     public GameObject btnNext;
+    public GameObject btnChangeScene;
 
     private Textos plantillaActual;
 
     void Start()
     {
+        btnChangeScene.gameObject.SetActive(false);
         MostrarTexto(todasLasPlantillas[0]);
+
     }
+
+    void Update()
+    {
+        if (!plantillaActual.hasDestinoNext)
+        {
+            btnNext.gameObject.SetActive(false);
+            btnChangeScene.gameObject.SetActive(true);
+        }
+        
+    }
+
 
     public void MostrarTexto(Textos nuevaPlantilla)
     {
@@ -74,9 +88,15 @@ public class Dialogue : MonoBehaviour
            
         }
         else {
-            int indiceNext = plantillaActual.indiceDestinoNext;
-            btnNext.gameObject.SetActive(true);
-            MostrarTexto(todasLasPlantillas[indiceNext]);
+
+            if (plantillaActual.hasDestinoNext)
+            {
+                int indiceNext = plantillaActual.indiceDestinoNext;
+                btnNext.gameObject.SetActive(true);
+                MostrarTexto(todasLasPlantillas[indiceNext]);
+               
+            }
+
         }
     }
 }

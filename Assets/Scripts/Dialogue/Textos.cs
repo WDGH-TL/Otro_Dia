@@ -21,6 +21,6 @@ public class Textos : ScriptableObject
 
 
     public bool esFinal;
-    public bool readOnly;
+    public bool hasDestinoNext;
     public int indiceDestinoNext;
 }

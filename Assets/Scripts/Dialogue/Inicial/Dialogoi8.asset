@@ -16,5 +16,4 @@ MonoBehaviour:
   textoNarrativo: Tu tranquila ok ?
   opciones: []
   esFinal: 0
-  readOnly: 0
-  indiceDestinoNext: 8
+  indiceDestinoNext: 0
