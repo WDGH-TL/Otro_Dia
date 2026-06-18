@@ -1466,14 +1466,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   todasLasPlantillas:
-  - {fileID: 11400000, guid: a0b81c1360603de46bc1df2d646b49e4, type: 2}
-  - {fileID: 11400000, guid: ed06c31344319b747a559451070f35c6, type: 2}
-  - {fileID: 11400000, guid: 3afb84495a3e2c64ba4b9a323ed852eb, type: 2}
-  - {fileID: 11400000, guid: 285d9b7de0fc18142af74a792aaee7c7, type: 2}
-  - {fileID: 11400000, guid: 4e751a1f79a10584da1debc61db6fe55, type: 2}
-  - {fileID: 11400000, guid: 0aab4c3122427bb4e9df47dc405cd0ee, type: 2}
-  - {fileID: 11400000, guid: 54041f05bee8e07428a08be284778976, type: 2}
-  - {fileID: 11400000, guid: 5cff8888e58c2914ebcb2b3702942072, type: 2}
+  - {fileID: 11400000, guid: 4d5217e51ecb8e343b355b29f33ee9db, type: 2}
+  - {fileID: 11400000, guid: 714d5a5cf8f63aa4ba0db621cdcdd87c, type: 2}
+  - {fileID: 11400000, guid: 80ce00dbecf6a0d4b95f65d2cb7c890d, type: 2}
+  - {fileID: 11400000, guid: 4a469cfbf6997da4c9d2b96909d74059, type: 2}
   nombre: {fileID: 1332447834}
   textoNarracion: {fileID: 1465077688}
   botonesUI:
