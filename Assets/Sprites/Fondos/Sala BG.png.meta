@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: acfa1b3879fb77e45b0de1e86acc6eb4
+guid: ff1b6bcf1522fac409a17abd2dd9cbbb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6629308938036535533
-    second: Sala de EstarComedor-OD_0
+      213: -3071697358397539201
+    second: Sala BG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sala de EstarComedor-OD_0
+      name: Sala BG_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de06df50b59000c50800000000000000
-      internalID: 6629308938036535533
+      spriteID: f7c753fe6832f55d0800000000000000
+      internalID: -3071697358397539201
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Sala de EstarComedor-OD_0: 6629308938036535533
+      Sala BG_0: -3071697358397539201
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
