@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6c34c0852fdded74d8f3fd0d37701656
+guid: 250d3f08bbae30e499aa852ba121d366
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7650901633422048132
-    second: Bajo Cama-OD_0
+      213: -1265548759477775093
+    second: Under Bed_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bajo Cama-OD_0
+      name: Under Bed_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 48bb397df767d2a60800000000000000
-      internalID: 7650901633422048132
+      spriteID: b051461cb1edf6ee0800000000000000
+      internalID: -1265548759477775093
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bajo Cama-OD_0: 7650901633422048132
+      Under Bed_0: -1265548759477775093
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

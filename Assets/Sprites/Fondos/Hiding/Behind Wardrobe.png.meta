@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d5225bf0417b3ab409641786be9b8fb5
+guid: 656420f61f1a81543bf5ac8269804d35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 118521345178433101
-    second: Tras el Ropero-OD_0
+      213: 4076855048285962965
+    second: Behind Wardrobe_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tras el Ropero-OD_0
+      name: Behind Wardrobe_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d4679a5198215a100800000000000000
-      internalID: 118521345178433101
+      spriteID: 5d2c7d9f016e39830800000000000000
+      internalID: 4076855048285962965
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Tras el Ropero-OD_0: 118521345178433101
+      Behind Wardrobe_0: 4076855048285962965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
