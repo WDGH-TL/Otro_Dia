@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: Dialogoi5
   m_EditorClassIdentifier: 
-  nombre: 
-  textoNarrativo: 
+  nombre: I
+  textoNarrativo: "Bueno, no tengo energ\xEDa para mas, me vuelvo a la cama, y tu
+    deber\xEDas hacer lo mismo."
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
-  indiceDestinoNext: 0
+  hasDestinoNext: 1
+  indiceDestinoNext: 8

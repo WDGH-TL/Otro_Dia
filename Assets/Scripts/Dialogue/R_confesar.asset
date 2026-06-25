@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: R_confesar
   m_EditorClassIdentifier: 
+  nombre: L
   textoNarrativo: "Me levante para ir al ba\xF1o, y me dio curiosidad al escuchar
     ruidos afuera, y me asom\xE9"
   opciones: []
   esFinal: 0
+  hasDestinoNext: 1
+  indiceDestinoNext: 7

@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: R_mentir
   m_EditorClassIdentifier: 
+  nombre: L
   textoNarrativo: Escuche gritos y sali corriendo
   opciones:
   - textoOpcion: look
     indiceDestino: 4
   esFinal: 0
+  hasDestinoNext: 1
+  indiceDestinoNext: 7
