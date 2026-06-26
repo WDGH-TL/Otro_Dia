@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: dfb1caa68a34d8347b97e606e68b3dce
+guid: 3f5b0e4e5eba0c0418e1fef8ad8ad142
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8191288174234573537
-    second: L-Neutral-Dia_0
+      213: 220060905521929693
+    second: I-Pensativo-Noche_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: L-Neutral-Dia_0
+      name: I-Pensativo-Noche_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1
-        width: 124
-        height: 310
+        x: 0
+        y: 2
+        width: 168
+        height: 358
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f15e3e90ec2b25e80800000000000000
-      internalID: -8191288174234573537
+      spriteID: dddd5964a30dd0300800000000000000
+      internalID: 220060905521929693
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      L-Neutral-Dia_0: -8191288174234573537
+      I-Pensativo-Noche_0: 220060905521929693
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

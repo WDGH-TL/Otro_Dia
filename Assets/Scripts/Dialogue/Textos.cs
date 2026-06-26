@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 
 [System.Serializable]
@@ -6,6 +7,7 @@ public struct OpcionRespuesta
 { 
     public string textoOpcion;
     public int indiceDestino;
+    public Image spritePersonaje;
 }
 
 
