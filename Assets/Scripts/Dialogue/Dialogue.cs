@@ -9,7 +9,7 @@ public class Dialogue : MonoBehaviour
     [Header("Referencias UI")]
     public TextMeshProUGUI nombre;
     public TextMeshProUGUI textoNarracion;
-    
+
     public GameObject[] botonesUI;
 
     public GameObject btnNext;
@@ -20,27 +20,15 @@ public class Dialogue : MonoBehaviour
     void Start()
     {
         btnChangeScene.gameObject.SetActive(false);
+        btnNext.gameObject.SetActive(false);
         MostrarTexto(todasLasPlantillas[0]);
-
     }
-
-    void Update()
-    {
-        if (!plantillaActual.hasDestinoNext)
-        {
-            btnNext.gameObject.SetActive(false);
-            btnChangeScene.gameObject.SetActive(true);
-        }
-        
-    }
-
 
     public void MostrarTexto(Textos nuevaPlantilla)
     {
         plantillaActual = nuevaPlantilla;
         nombre.text = plantillaActual.nombre;
         textoNarracion.text = plantillaActual.textoNarrativo;
-       // Debug.Log("plantilla: " + plantillaActual.opciones);
 
         if (plantillaActual.esFinal || plantillaActual.opciones.Length == 0)
         {
@@ -48,55 +36,80 @@ public class Dialogue : MonoBehaviour
             {
                 boton.SetActive(false);
             }
-            return;
         }
-
-        for (int i = 0; i < botonesUI.Length; i++)
+        else
         {
-
-            if (botonesUI[i] != null)
+            for (int i = 0; i < botonesUI.Length; i++)
             {
-                if (i < plantillaActual.opciones.Length)
+                if (botonesUI[i] != null)
                 {
-                    botonesUI[i].gameObject.SetActive(true);
-                    TextMeshProUGUI textoHijo = botonesUI[i].GetComponentInChildren<TextMeshProUGUI>();
-                    if (textoHijo != null)
+                    if (i < plantillaActual.opciones.Length)
                     {
-                        textoHijo.text = plantillaActual.opciones[i].textoOpcion;
+                        botonesUI[i].gameObject.SetActive(true);
+
+                        TextMeshProUGUI textoHijo = botonesUI[i].GetComponentInChildren<TextMeshProUGUI>();
+                        if (textoHijo != null)
+                        {
+                            textoHijo.text = plantillaActual.opciones[i].textoOpcion;
+                        }
+
+                         Button botonComponente = botonesUI[i].GetComponent<Button>();
+                        if (botonComponente != null)
+                        {
+                            botonComponente.onClick.RemoveAllListeners(); 
+                            int indiceCapturado = i; 
+                            botonComponente.onClick.AddListener(() => ControlDeBotones(indiceCapturado));
+                        }
+                    }
+                    else
+                    {
+                        botonesUI[i].gameObject.SetActive(false);
                     }
                 }
-                else
-                {
-                    botonesUI[i].gameObject.SetActive(false);
-                }
             }
+        }
+
+        if (!plantillaActual.hasDestinoNext)
+        {
+            if (plantillaActual.isDecision)
+            {
+                btnNext.gameObject.SetActive(false);
+                btnChangeScene.gameObject.SetActive(false);
+            }
+            else
+            {
+                btnNext.gameObject.SetActive(false);
+                btnChangeScene.gameObject.SetActive(true);
+            }
+        }
+        else
+        {
+            btnNext.gameObject.SetActive(true);
+            btnChangeScene.gameObject.SetActive(false);
         }
     }
 
     public void ControlDeBotones(int indiceBoton)
     {
-       
         if (indiceBoton >= 0 && indiceBoton < plantillaActual.opciones.Length)
         {
-            btnNext.gameObject.SetActive(false);
             int indiceSiguiente = plantillaActual.opciones[indiceBoton].indiceDestino;
 
             if (indiceSiguiente >= 0 && indiceSiguiente < todasLasPlantillas.Length)
             {
                 MostrarTexto(todasLasPlantillas[indiceSiguiente]);
             }
-           
         }
-        else {
-
+        else
+        {
             if (plantillaActual.hasDestinoNext)
             {
                 int indiceNext = plantillaActual.indiceDestinoNext;
-                btnNext.gameObject.SetActive(true);
-                MostrarTexto(todasLasPlantillas[indiceNext]);
-               
+                if (indiceNext >= 0 && indiceNext < todasLasPlantillas.Length)
+                {
+                    MostrarTexto(todasLasPlantillas[indiceNext]);
+                }
             }
-
         }
     }
 }

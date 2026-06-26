@@ -1470,13 +1470,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 714d5a5cf8f63aa4ba0db621cdcdd87c, type: 2}
   - {fileID: 11400000, guid: 80ce00dbecf6a0d4b95f65d2cb7c890d, type: 2}
   - {fileID: 11400000, guid: 4a469cfbf6997da4c9d2b96909d74059, type: 2}
-  - {fileID: 11400000, guid: 524e9295492fdde409a77cc2abb7919c, type: 2}
-  - {fileID: 11400000, guid: b069e5302b13e73438fc1dbfa3ea45ca, type: 2}
-  - {fileID: 11400000, guid: 509e7e70d790dc7489edf718be32852c, type: 2}
   - {fileID: 11400000, guid: e2ceafcf8ce4b6542becefb4b42a99f1, type: 2}
   - {fileID: 11400000, guid: e9ae3d629edc73248b03a17b8c845eb5, type: 2}
   - {fileID: 11400000, guid: 706d1a1470601f04fbb9e6cfb8e1b076, type: 2}
   - {fileID: 11400000, guid: 3fb226689e8e80c4f9217b4b5b490c2e, type: 2}
+  - {fileID: 11400000, guid: b3da924fca3e2d846b1db442637776fc, type: 2}
+  - {fileID: 11400000, guid: 524e9295492fdde409a77cc2abb7919c, type: 2}
+  - {fileID: 11400000, guid: b069e5302b13e73438fc1dbfa3ea45ca, type: 2}
+  - {fileID: 11400000, guid: 509e7e70d790dc7489edf718be32852c, type: 2}
   nombre: {fileID: 1332447834}
   textoNarracion: {fileID: 1465077688}
   botonesUI:
@@ -2308,7 +2309,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 5
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2516,7 +2517,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
