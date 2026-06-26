@@ -16,11 +16,11 @@ MonoBehaviour:
   textoNarrativo: "\xBF Por que te buscaban ?"
   opciones:
   - textoOpcion: Confesar
-    indiceDestino: 4
+    indiceDestino: 9
   - textoOpcion: Mentir
-    indiceDestino: 4
+    indiceDestino: 11
   - textoOpcion: Evitar la pregunta
-    indiceDestino: 4
+    indiceDestino: 10
   esFinal: 0
   hasDestinoNext: 0
   isDecision: 1
