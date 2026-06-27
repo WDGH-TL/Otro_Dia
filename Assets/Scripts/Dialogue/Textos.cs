@@ -8,6 +8,7 @@ public struct OpcionRespuesta
     public string textoOpcion;
     public int indiceDestino;
     public Image spritePersonaje;
+   
 }
 
 
@@ -15,6 +16,7 @@ public struct OpcionRespuesta
 public class Textos : ScriptableObject
 {
     public string nombre;
+    public Sprite characterSprite;
     [TextArea(5, 10)]
     public string textoNarrativo;
 

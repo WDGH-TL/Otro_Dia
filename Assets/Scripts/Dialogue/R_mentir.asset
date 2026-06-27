@@ -14,9 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nombre: L
   textoNarrativo: Escuche gritos y sali corriendo
-  opciones:
-  - textoOpcion: look
-    indiceDestino: 8
+  opciones: []
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
