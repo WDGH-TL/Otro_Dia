@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Dialogoi5
   m_EditorClassIdentifier: 
   nombre: I
+  characterSprite: {fileID: -3784461156273343721, guid: 3b4f88dbc9187b7449a8625a8d1e462d, type: 3}
   textoNarrativo: "Bueno, no tengo energ\xEDa para mas, me vuelvo a la cama, y tu
     deber\xEDas hacer lo mismo."
   opciones: []

@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Dialogoi3
   m_EditorClassIdentifier: 
   nombre: 'L:'
-  textoNarrativo: ' I ! Despierta los soldados vienen !'
+  characterSprite: {fileID: -3601798897656092099, guid: 6fc8a1abeaf942849a47d461b2b43c8d, type: 3}
+  textoNarrativo: " \xA1I! \xA1Despierta los soldados vienen!"
   opciones: []
   esFinal: 0
   hasDestinoNext: 1
+  isDecision: 0
   indiceDestinoNext: 3

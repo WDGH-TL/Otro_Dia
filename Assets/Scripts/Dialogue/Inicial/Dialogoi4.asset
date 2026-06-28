@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Dialogoi4
   m_EditorClassIdentifier: 
   nombre: 'I:'
-  textoNarrativo: Ah ! Que los soldados que--?
+  characterSprite: {fileID: 2047191404532561199, guid: 7daf9285a6158c5459467663a14fc3ef, type: 3}
+  textoNarrativo: "\xA1Ah! \xBFQue los soldados que--?"
   opciones: []
   esFinal: 0
   hasDestinoNext: 1
+  isDecision: 0
   indiceDestinoNext: 4

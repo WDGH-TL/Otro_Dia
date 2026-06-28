@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Dialogoi8
   m_EditorClassIdentifier: 
   nombre: L
+  characterSprite: {fileID: -5221498310742319758, guid: 1cabab7c1e1b5fe4a9858ecedae252d5, type: 3}
   textoNarrativo: Gracias....
   opciones: []
   esFinal: 1
   hasDestinoNext: 0
+  isDecision: 0
   indiceDestinoNext: 0

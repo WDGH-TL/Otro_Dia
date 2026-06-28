@@ -13,8 +13,10 @@ MonoBehaviour:
   m_Name: Dialogoi8
   m_EditorClassIdentifier: 
   nombre: 'I:'
-  textoNarrativo: Tu tranquila ok ?
+  characterSprite: {fileID: -6638392136615253740, guid: 71c37eb2c7026534ea3c545c37e8ccfd, type: 3}
+  textoNarrativo: "\xBFTu tranquila ok? Yo me ocupo"
   opciones: []
   esFinal: 0
   hasDestinoNext: 0
+  isDecision: 0
   indiceDestinoNext: 0

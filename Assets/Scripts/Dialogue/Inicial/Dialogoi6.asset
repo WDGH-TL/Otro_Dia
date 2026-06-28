@@ -13,9 +13,11 @@ MonoBehaviour:
   m_Name: Dialogoi6
   m_EditorClassIdentifier: 
   nombre: 'I:'
+  characterSprite: {fileID: 220060905521929693, guid: 3f5b0e4e5eba0c0418e1fef8ad8ad142, type: 3}
   textoNarrativo: "S-si, m\xE9tete bajo la cama, no hagas ruido, y no te quedes mucho
     en un mismo sitio, yo--"
   opciones: []
   esFinal: 0
   hasDestinoNext: 1
+  isDecision: 0
   indiceDestinoNext: 6

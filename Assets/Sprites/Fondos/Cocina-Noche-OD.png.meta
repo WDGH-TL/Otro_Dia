@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 5e8f3631d1d86ae449ce5764eacab9b3
+guid: 21e939262c8b6ff48bb70fd2bf2ab98d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4409383286585783819
-    second: istockphoto-1179432122-612x612.jpg_0
+      213: -6579212844030115005
+    second: Cocina-Noche-OD_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: istockphoto-1179432122-612x612.jpg_0
+      name: Cocina-Noche-OD_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 612
-        height: 232
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b067d7bbcb6413d30800000000000000
-      internalID: 4409383286585783819
+      spriteID: 343c5e9c6c0f1b4a0800000000000000
+      internalID: -6579212844030115005
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      istockphoto-1179432122-612x612.jpg_0: 4409383286585783819
+      Cocina-Noche-OD_0: -6579212844030115005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

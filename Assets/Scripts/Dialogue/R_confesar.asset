@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: R_confesar
   m_EditorClassIdentifier: 
   nombre: L
+  characterSprite: {fileID: -5221498310742319758, guid: 1cabab7c1e1b5fe4a9858ecedae252d5, type: 3}
   textoNarrativo: "Me levante para ir al ba\xF1o, y me dio curiosidad al escuchar
     ruidos afuera, y me asom\xE9"
   opciones: []

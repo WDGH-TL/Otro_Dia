@@ -13,14 +13,18 @@ MonoBehaviour:
   m_Name: Dialogoi4
   m_EditorClassIdentifier: 
   nombre: I
-  textoNarrativo: "\xBF Por que te buscaban ?"
+  characterSprite: {fileID: -6638392136615253740, guid: 71c37eb2c7026534ea3c545c37e8ccfd, type: 3}
+  textoNarrativo: "\xBF Por que vinieron a buscarte ?"
   opciones:
   - textoOpcion: Confesar
     indiceDestino: 9
+    spritePersonaje: {fileID: 0}
   - textoOpcion: Mentir
     indiceDestino: 11
+    spritePersonaje: {fileID: 0}
   - textoOpcion: Evitar la pregunta
     indiceDestino: 10
+    spritePersonaje: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 0
   isDecision: 1

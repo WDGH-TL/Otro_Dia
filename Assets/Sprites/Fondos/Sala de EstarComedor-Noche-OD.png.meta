@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ac1f33f3a1692c044bb282f63d5523a2
+guid: a025cad9dc01b174b9cfa5dd8a54058d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1666357374567006900
-    second: L-Pensativa-Dia_0
+      213: 6364505981718813786
+    second: Sala de EstarComedor-Noche-OD_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: L-Pensativa-Dia_0
+      name: Sala de EstarComedor-Noche-OD_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1
-        width: 121
-        height: 310
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b24be31437102710800000000000000
-      internalID: 1666357374567006900
+      spriteID: a5cd2334874435850800000000000000
+      internalID: 6364505981718813786
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      L-Pensativa-Dia_0: 1666357374567006900
+      Sala de EstarComedor-Noche-OD_0: 6364505981718813786
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

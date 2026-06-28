@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: R_evadir
   m_EditorClassIdentifier: 
   nombre: L
-  textoNarrativo: "Estas bien no te hicieron da\xF1o verdad?"
+  characterSprite: {fileID: -5221498310742319758, guid: 1cabab7c1e1b5fe4a9858ecedae252d5, type: 3}
+  textoNarrativo: "\xBF Estas bien ? no te hicieron da\xF1o \xBF verdad?"
   opciones: []
   esFinal: 0
   hasDestinoNext: 1

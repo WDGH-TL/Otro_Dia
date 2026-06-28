@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: Dialogoi7
   m_EditorClassIdentifier: 
-  nombre: 
+  nombre: I
+  characterSprite: {fileID: 220060905521929693, guid: 3f5b0e4e5eba0c0418e1fef8ad8ad142, type: 3}
   textoNarrativo: No creo que vuelvan, pero si no puedes, pues quedate despierta,
     al menos puedes descansar el cuerpo.
   opciones: []
