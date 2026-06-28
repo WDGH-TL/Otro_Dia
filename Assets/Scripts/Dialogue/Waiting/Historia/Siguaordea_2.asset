@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
+  m_Name: Siguaordea_2
+  m_EditorClassIdentifier: 
+  nombre: L
+  characterSprite: {fileID: 1666357374567006900, guid: 50139bb31384f6745bc168bdc6477f13, type: 3}
+  textoNarrativo: "Fue cuando a\xFAn era muy chica, B y yo viv\xEDamos en el campo
+    con varios familiares, entre eellos un primo que ya no esta con nosotros...."
+  opciones: []
+  esFinal: 0
+  hasDestinoNext: 0
+  isDecision: 0
+  indiceDestinoNext: 0
