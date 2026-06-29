@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
+  m_Name: Creen7
+  m_EditorClassIdentifier: 
+  nombre: O
+  characterSprite: {fileID: 0}
+  textoNarrativo: "Se\xF1or B, por favor no es hora ni lugar para levantar el dedo
+    como si aun fuera a la escuela, aunque por sus harapos si que podr\xEDa encajar
+    en una...."
+  opciones: []
+  esFinal: 0
+  hasDestinoNext: 1
+  isDecision: 0
+  indiceDestinoNext: 41

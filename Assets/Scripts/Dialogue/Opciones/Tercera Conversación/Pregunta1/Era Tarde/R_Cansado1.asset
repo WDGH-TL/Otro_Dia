@@ -18,6 +18,6 @@ MonoBehaviour:
     fabricas de los Regalado en Usulut\xE1n."
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 0

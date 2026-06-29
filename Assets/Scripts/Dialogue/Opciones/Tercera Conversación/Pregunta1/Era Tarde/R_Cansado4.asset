@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: R_Cansado4
   m_EditorClassIdentifier: 
-  nombre: 
+  nombre: Soldado
   characterSprite: {fileID: 0}
-  textoNarrativo: 
+  textoNarrativo: "Si se\xF1or."
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 0
+  indiceDestinoNext: 33

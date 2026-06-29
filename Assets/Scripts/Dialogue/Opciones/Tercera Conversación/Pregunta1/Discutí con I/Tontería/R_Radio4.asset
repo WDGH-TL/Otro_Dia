@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
+  m_Name: R_Radio4
+  m_EditorClassIdentifier: 
+  nombre: O
+  characterSprite: {fileID: 0}
+  textoNarrativo: "Alto, alto, alto, se\xF1ora L, primero que nada no han habido
+    partidos en las \xFAltimas tres semanas, y segundo, soy un fan\xE1tico de futbol,
+    y puedo asegurarle que siempre que tengo un rato libre lo escucho ya sea en televisi\xF3n
+    o radio."
+  opciones: []
+  esFinal: 0
+  hasDestinoNext: 1
+  isDecision: 0
+  indiceDestinoNext: 0
