@@ -10,6 +10,8 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI nombre;
     public TextMeshProUGUI textoNarracion;
 
+    public Image imgPersonaje;
+
     public GameObject[] botonesUI;
 
     public GameObject btnNext;
@@ -29,6 +31,20 @@ public class Dialogue : MonoBehaviour
         plantillaActual = nuevaPlantilla;
         nombre.text = plantillaActual.nombre;
         textoNarracion.text = plantillaActual.textoNarrativo;
+
+        if (imgPersonaje != null)
+        {
+            // Ahora leemos tu variable 'characterSprite' desde el ScriptableObject
+            if (plantillaActual.characterSprite != null)
+            {
+                imgPersonaje.sprite = plantillaActual.characterSprite;
+                imgPersonaje.gameObject.SetActive(true);
+            }
+            else
+            {
+                imgPersonaje.gameObject.SetActive(false);
+            }
+        }
 
         if (plantillaActual.esFinal || plantillaActual.opciones.Length == 0)
         {
