@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
-  m_Name: Shootout2
+  m_Name: Shootout8
   m_EditorClassIdentifier: 
   nombre: I
   characterSprite: {fileID: 0}
-  textoNarrativo: "Parece ser una balacera entre gente del MNLF, y las maras, qued\xE9nse
-    aqu\xED, y no se asomen por las ventanas ambos."
+  textoNarrativo: Pida ayuda o no, es un marero, seguramente solo quiere usarnos
+    de alguna forma.
   opciones: []
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 2
+  indiceDestinoNext: 8
