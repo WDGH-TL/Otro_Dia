@@ -12,11 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: Final24
   m_EditorClassIdentifier: 
-  nombre: 
-  characterSprite: {fileID: 0}
-  textoNarrativo: 
-  opciones: []
+  nombre: B
+  characterSprite: {fileID: -8777291186319396451, guid: 7a5e3b44c30774445aa3639865451c9b, type: 3}
+  textoNarrativo: "\xBF\xA1POR QUE INSISTES EN QUEDARTE AQU\xCD!?"
+  opciones:
+  - textoOpcion: "Es mi pa\xEDs"
+    indiceDestino: 0
+    spritePersonaje: {fileID: 0}
+  - textoOpcion: "No me ir\xE9 sin I"
+    indiceDestino: 0
+    spritePersonaje: {fileID: 0}
+  - textoOpcion: "No lo s\xE9"
+    indiceDestino: 0
+    spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 0
-  isDecision: 0
+  hasDestinoNext: 1
+  isDecision: 1
   indiceDestinoNext: 0

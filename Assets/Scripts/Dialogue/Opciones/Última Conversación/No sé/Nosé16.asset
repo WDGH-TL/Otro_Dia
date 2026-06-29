@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: "Nos\xE916"
   m_EditorClassIdentifier: 
-  nombre: 
-  characterSprite: {fileID: 0}
-  textoNarrativo: 
+  nombre: I
+  characterSprite: {fileID: 8346532743005369460, guid: baa6a8aa8ffacc149b7b3520a17e6742, type: 3}
+  textoNarrativo: Buf...... Voy a preparar la cena
   opciones: []
-  esFinal: 0
+  esFinal: 1
   hasDestinoNext: 0
   isDecision: 0
   indiceDestinoNext: 0

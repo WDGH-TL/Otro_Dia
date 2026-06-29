@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: Final09
   m_EditorClassIdentifier: 
-  nombre: 
-  characterSprite: {fileID: 0}
-  textoNarrativo: 
+  nombre: I
+  characterSprite: {fileID: -512182371410995993, guid: d69b43af284ef954488fa778ee735946, type: 3}
+  textoNarrativo: "No lo atender\xE1n en el hospital por los tatuajes de todas formas....."
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 0
+  indiceDestinoNext: 9

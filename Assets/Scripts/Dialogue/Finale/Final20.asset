@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: Final20
   m_EditorClassIdentifier: 
-  nombre: 
-  characterSprite: {fileID: 0}
-  textoNarrativo: 
+  nombre: B
+  characterSprite: {fileID: -9223080859088658998, guid: 0bfbb59757600d246ac4098f13e61d71, type: 3}
+  textoNarrativo: "...... \xBFPor que?"
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 0
+  indiceDestinoNext: 20

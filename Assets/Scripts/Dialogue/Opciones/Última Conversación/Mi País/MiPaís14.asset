@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: "MiPa\xEDs14"
   m_EditorClassIdentifier: 
-  nombre: 
-  characterSprite: {fileID: 0}
-  textoNarrativo: 
+  nombre: I
+  characterSprite: {fileID: 7728315059264722749, guid: 2f897aeb5b22096498f681a1bf2a7c1c, type: 3}
+  textoNarrativo: "Volver\xE1, despu\xE9s de todo dej\xF3 aqu\xED su camisa y gorra."
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 0

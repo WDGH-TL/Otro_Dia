@@ -12,11 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: "MiPa\xEDs09"
   m_EditorClassIdentifier: 
-  nombre: 
-  characterSprite: {fileID: 0}
-  textoNarrativo: 
+  nombre: B
+  characterSprite: {fileID: -8777291186319396451, guid: 7a5e3b44c30774445aa3639865451c9b, type: 3}
+  textoNarrativo: "Claro que lo vale I, se que tu no te ir\xE1s por tu familia, pero
+    esto es entre L y yo, nuestros padres, primos, nuestra familia esta all\xE1 fuera,
+    en Honduraas, o Nicaragua, podemos  ir, no vale la pena quedarnos en este pa\xEDs
+    muerto."
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 0

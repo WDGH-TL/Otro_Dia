@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
   m_Name: "MiPa\xEDs11"
   m_EditorClassIdentifier: 
-  nombre: 
-  characterSprite: {fileID: 0}
-  textoNarrativo: 
+  nombre: B
+  characterSprite: {fileID: -515479512271805841, guid: 47fea3723ca4f844a970fbe1c91bdef2, type: 3}
+  textoNarrativo: "Y nos estamos matando entre nosotros, todos los d\xEDas, L, por
+    favor, entiende no hay nada aqu\xED para nosotros."
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 0
