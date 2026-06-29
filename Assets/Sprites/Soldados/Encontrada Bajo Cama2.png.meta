@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6ace855b786a15041a091617092b1477
+guid: 814335171a737b541bd989b89924f143
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6728633622002607419
-    second: Soldado del Gobierno_0
+      213: -7768074823210133905
+    second: Encontrada Bajo Cama2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldado del Gobierno_0
+      name: Encontrada Bajo Cama2_0
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1
-        width: 165
-        height: 189
+        x: 0
+        y: 0
+        width: 1920
+        height: 678
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b35273f11a8e06d50800000000000000
-      internalID: 6728633622002607419
+      spriteID: f6697e5fa11423490800000000000000
+      internalID: -7768074823210133905
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soldado del Gobierno_0: 6728633622002607419
+      Encontrada Bajo Cama2_0: -7768074823210133905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

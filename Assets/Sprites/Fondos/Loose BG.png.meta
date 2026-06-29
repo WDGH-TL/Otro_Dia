@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 09a71d351da083342bf9783e32544c1d
+guid: f256f8e9e4f36a6488f0c8b879d855f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 498456563819398078
-    second: Soldado del NMLF_0
+      213: -3086961258384998300
+    second: Loose BG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Soldado del NMLF_0
+      name: Loose BG_0
       rect:
         serializedVersion: 2
-        x: 149
-        y: 17
-        width: 164
-        height: 173
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb3ca669a9fdae600800000000000000
-      internalID: 498456563819398078
+      spriteID: 460c1964719e825d0800000000000000
+      internalID: -3086961258384998300
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Soldado del NMLF_0: 498456563819398078
+      Loose BG_0: -3086961258384998300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
