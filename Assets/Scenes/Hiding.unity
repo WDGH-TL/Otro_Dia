@@ -4157,6 +4157,7 @@ GameObject:
   - component: {fileID: 1754780673}
   - component: {fileID: 1754780675}
   - component: {fileID: 1754780676}
+  - component: {fileID: 1754780677}
   m_Layer: 0
   m_Name: Soldado del Gobierno_0
   m_TagString: Enemy
@@ -4208,7 +4209,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 6728633622002607419, guid: 6ace855b786a15041a091617092b1477, type: 3}
+  m_Sprite: {fileID: -5501674637028803001, guid: cd5c9ca609c94a643ab97f58d6da4652, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4272,7 +4273,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.65, y: 1.89}
+    oldSize: {x: 1.7, y: 1.89}
     newSize: {x: 1.65, y: 1.89}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -4303,6 +4304,29 @@ MonoBehaviour:
     puntoFin: {fileID: 820767248}
   velocidad: 5
   tiempoPorSegmento: 12
+  anim: {fileID: 1754780677}
+--- !u!95 &1754780677
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754780672}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 8c252b314b5bb2c49a23d0e4ff963644, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1763390012
 GameObject:
   m_ObjectHideFlags: 0
