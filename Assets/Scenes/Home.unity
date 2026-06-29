@@ -2844,6 +2844,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5cff8888e58c2914ebcb2b3702942072, type: 2}
   nombre: {fileID: 586753836}
   textoNarracion: {fileID: 1286318226}
+  imgPersonaje: {fileID: 1641119767}
   botonesUI:
   - {fileID: 1572382692}
   - {fileID: 381816136}

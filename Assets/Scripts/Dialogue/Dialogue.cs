@@ -34,7 +34,7 @@ public class Dialogue : MonoBehaviour
 
         if (imgPersonaje != null)
         {
-            // Ahora leemos tu variable 'characterSprite' desde el ScriptableObject
+            
             if (plantillaActual.characterSprite != null)
             {
                 imgPersonaje.sprite = plantillaActual.characterSprite;
