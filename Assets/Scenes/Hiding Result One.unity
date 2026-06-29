@@ -1567,6 +1567,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 509e7e70d790dc7489edf718be32852c, type: 2}
   nombre: {fileID: 1332447834}
   textoNarracion: {fileID: 1465077688}
+  imgPersonaje: {fileID: 711887134}
   botonesUI:
   - {fileID: 1595973327}
   - {fileID: 1645509393}
