@@ -10,13 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
-  m_Name: PrimeraPregunta1
+  m_Name: HombreGallo5
   m_EditorClassIdentifier: 
-  nombre: O
-  characterSprite: {fileID: 0}
-  textoNarrativo: "\xBFUna discusi\xF3n? no es de mi incunbencia meterme en dramas
-    as\xED, pero por como me describieron mis hombres al se\xF1or I, suena dificil
-    de creer."
+  nombre: L
+  characterSprite: {fileID: -8191288174234573537, guid: ad6f4de4b4b905d4c926a095ecace9cd, type: 3}
+  textoNarrativo: "Cuando la gente est\xE1 tan podrida de dinero, fama y poder se
+    les perdona cualquier cosa supongo, en fin volviendo a la historia."
   opciones: []
   esFinal: 0
   hasDestinoNext: 1

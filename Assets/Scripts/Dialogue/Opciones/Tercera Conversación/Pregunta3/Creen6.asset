@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Creen6
   m_EditorClassIdentifier: 
   nombre: B
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -6317595696276296963, guid: f483816404e3c544fb2702566a0ca853, type: 3}
   textoNarrativo: "\xA1!"
   opciones: []
   esFinal: 0

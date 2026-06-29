@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Creen1
   m_EditorClassIdentifier: 
   nombre: L
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -8191288174234573537, guid: ad6f4de4b4b905d4c926a095ecace9cd, type: 3}
   textoNarrativo: "Yo soy creyente, voy todos los domingos a la iglesia m\xE1s cercana
     de hecho."
   opciones: []

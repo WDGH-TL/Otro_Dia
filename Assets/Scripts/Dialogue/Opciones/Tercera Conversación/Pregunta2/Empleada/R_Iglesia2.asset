@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: R_Iglesia2
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -1382106150186592963, guid: 976f9ffe0898ce94bbd0f4ca8e4bee67, type: 3}
   textoNarrativo: "Un noble y nada envidiable trabajo se\xF1orita, espero verla al
     salir de un serm\xF3n."
   opciones: []

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Acorralada_Bus3
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
   textoNarrativo: "Uno, se pudieron permitir, especialmente usted \xBFun viaje de
     ida y vuelta con su nivel econ\xF3mico? y segundo, vimos el auto y confirmamos
     que era el auto del se\xF1or B en el parqueo de aqu\xED, \xBFpuede explicar eso?"

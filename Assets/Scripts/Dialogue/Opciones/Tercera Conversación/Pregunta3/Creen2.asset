@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Creen2
   m_EditorClassIdentifier: 
   nombre: B
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -817014919062194682, guid: 331a075bc6e3f4f42bb88036e2400f74, type: 3}
   textoNarrativo: "Yo...... Tambi\xE9n creo...."
   opciones: []
   esFinal: 0

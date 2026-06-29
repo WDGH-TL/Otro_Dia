@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Desempleada2
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
-  textoNarrativo: "Oh, he o\xEDdo de ello, \xBFel lugar se quem\xF3 no? puedo preguntar
-    si usted era parte de los empleados en huelga o una esquirol?"
+  characterSprite: {fileID: -1382106150186592963, guid: 976f9ffe0898ce94bbd0f4ca8e4bee67, type: 3}
+  textoNarrativo: "Oh, he o\xEDdo de ello, \xBFel lugar se quem\xF3 no? \xBFpuedo
+    preguntar si usted era parte de los empleados en huelga o una esquirol?"
   opciones:
   - textoOpcion: Esquirol
     indiceDestino: 0

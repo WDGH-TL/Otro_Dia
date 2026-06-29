@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogo33
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
   textoNarrativo: "...... Ya veo, bueno no tengo otras preguntas, al menos por ahora,
     se\xF1orita."
   opciones: []

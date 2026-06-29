@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Protestante4
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
   textoNarrativo: "Se\xF1ora L, me parece que tendr\xE1 que acompa\xF1arnos, nada
     personal....."
   opciones: []

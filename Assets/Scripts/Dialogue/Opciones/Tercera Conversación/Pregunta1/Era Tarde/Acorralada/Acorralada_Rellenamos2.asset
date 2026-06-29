@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Acorralada_Rellenamos2
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
-  textoNarrativo: Hmmmm, si supongo que tiene sentido.
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
+  textoNarrativo: Hmmmm, si supongo que tiene sentido, y podemos interrogarles luego
+    para confirmar sus palabras.
   opciones: []
   esFinal: 0
   hasDestinoNext: 1

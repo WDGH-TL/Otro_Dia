@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: R_Dinero2
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -1382106150186592963, guid: 976f9ffe0898ce94bbd0f4ca8e4bee67, type: 3}
   textoNarrativo: "Supongo que es un motivo v\xE1lido para discutir, incluso entre
     las clases acomodadas siempre surgen disputas por ello, lo tendremos que confirmar
     con el se\xF1or I luego."

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
+  m_Name: HombreGallo9
+  m_EditorClassIdentifier: 
+  nombre: L
+  characterSprite: {fileID: 1666357374567006900, guid: 50139bb31384f6745bc168bdc6477f13, type: 3}
+  textoNarrativo: "La cosa es que la f\xE1brica ten\xEDa dos reglas muy extra\xF1as,
+    la primera era que estaban absolutamente prohibidas las horas extras, y que todos
+    los empleados deb\xEDan dejar las instalaciones principales en el momento que
+    sonar\xE1 la campana de las 10 de la noche."
+  opciones: []
+  esFinal: 0
+  hasDestinoNext: 1
+  isDecision: 0
+  indiceDestinoNext: 0

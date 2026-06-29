@@ -10,19 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
-  m_Name: "R_Tonter\xEDa"
+  m_Name: HombreGallo11
   m_EditorClassIdentifier: 
-  nombre: O
-  characterSprite: {fileID: 0}
-  textoNarrativo: "Oh, por favor, deleitenos, queremos saber sobre esa tonter\xEDa
-    con lujo de detalles."
-  opciones:
-  - textoOpcion: Fue por el dinero
-    indiceDestino: 0
-    spritePersonaje: {fileID: 0}
-  - textoOpcion: Fue por la radio
-    indiceDestino: 0
-    spritePersonaje: {fileID: 0}
+  nombre: L
+  characterSprite: {fileID: -8191288174234573537, guid: ad6f4de4b4b905d4c926a095ecace9cd, type: 3}
+  textoNarrativo: "Pero la cosa es que un d\xEDa mi pap\xE1 estaba con otro trabajador
+    que era nuevo, y llego la hora de irse, eran unos 5 minutos antes de que sonar\xE1
+    la campana, por lo que todos ya estaban retir\xE1ndose."
+  opciones: []
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogo32
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -1382106150186592963, guid: 976f9ffe0898ce94bbd0f4ca8e4bee67, type: 3}
   textoNarrativo: "En fin, continuando tengo otra pregunta \xBFest\xE1 usted empleada
     ahora mismo?"
   opciones:

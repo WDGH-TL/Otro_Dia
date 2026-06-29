@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Acorralada_Bus2
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
   textoNarrativo: "Si, supongo que hay cierto sentido se podr\xEDa llegar con las
     justas, pero dos cosas."
   opciones: []

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Protestante1
   m_EditorClassIdentifier: 
   nombre: L
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -236545662669077532, guid: 70169562e6c0761468ac8924757f2e2a, type: 3}
   textoNarrativo: "Estaba ah\xED, por que nos pagaban una miser\xEDa, y los materiales
-    de costura eran una basura."
+    de costura eran una basura, solo quer\xEDamos poder hacer bien nuestro trabajo."
   opciones: []
   esFinal: 0
   hasDestinoNext: 1

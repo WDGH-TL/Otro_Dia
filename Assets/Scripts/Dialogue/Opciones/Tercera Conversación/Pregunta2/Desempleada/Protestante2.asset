@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Protestante2
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
   textoNarrativo: ..........
   opciones: []
   esFinal: 0

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
+  m_Name: "R_Interrogaci\xF3n9"
+  m_EditorClassIdentifier: 
+  nombre: I
+  characterSprite: {fileID: 8346532743005369460, guid: baa6a8aa8ffacc149b7b3520a17e6742, type: 3}
+  textoNarrativo: Ver para creer, L.
+  opciones: []
+  esFinal: 0
+  hasDestinoNext: 1
+  isDecision: 0
+  indiceDestinoNext: 13

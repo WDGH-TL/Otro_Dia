@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Acorralada_Bus4
   m_EditorClassIdentifier: 
   nombre: L
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -4423149253804846325, guid: 127b185d1661b3e4ca298c41718dff29, type: 3}
   textoNarrativo: E-Emmmm.....
   opciones: []
   esFinal: 0

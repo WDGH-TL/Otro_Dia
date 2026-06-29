@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: R_mentir
   m_EditorClassIdentifier: 
   nombre: L
-  characterSprite: {fileID: -5221498310742319758, guid: 1cabab7c1e1b5fe4a9858ecedae252d5, type: 3}
+  characterSprite: {fileID: -4423149253804846325, guid: 127b185d1661b3e4ca298c41718dff29, type: 3}
   textoNarrativo: Escuche gritos y sali corriendo a ver, los soldados estaban subiendo
     gente a una camioneta....
   opciones: []

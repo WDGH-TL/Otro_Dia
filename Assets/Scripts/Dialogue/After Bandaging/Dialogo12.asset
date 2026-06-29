@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogo12
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -1382106150186592963, guid: 36fe74bd1c6c32a4b89c4557558bcf87, type: 3}
   textoNarrativo: "Un placer, pueden llamarme O \xBFes esta la casa de un tal I?"
   opciones: []
   esFinal: 0
