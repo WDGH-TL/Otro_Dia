@@ -22,8 +22,11 @@ public class Enemy : MonoBehaviour
     private int indiceActual = 0;
     private bool moviendose = false;
 
+    public Animator anim;
+
     void Start()
     {
+        anim = GetComponent<Animator>();
         // Si configuramos al menos un segmento en el Inspector, iniciamos la secuencia
         if (segmentos.Length > 0)
         {
@@ -41,6 +44,15 @@ public class Enemy : MonoBehaviour
             {
                 transform.position = Vector2.MoveTowards(transform.position, destinoActual.position, velocidad * Time.deltaTime);
             }
+        }
+
+        if (velocidad < 0)
+        {
+            anim.SetBool("Moviendo", true);
+        }
+        else
+        {
+            anim.SetBool("Moviendo", false);
         }
     }
 
