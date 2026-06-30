@@ -59,7 +59,7 @@ public class Dialogue : MonoBehaviour
             }
         }
 
-        if (plantillaActual.audioClip != null)
+        if (plantillaActual.audioClip != null && plantillaActual.audioClip)
         {
             audioCLip.clip = plantillaActual.audioClip;
             audioCLip.Play();
