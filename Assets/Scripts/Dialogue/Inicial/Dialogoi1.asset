@@ -16,6 +16,7 @@ MonoBehaviour:
   characterSprite: {fileID: -5221498310742319758, guid: 1cabab7c1e1b5fe4a9858ecedae252d5, type: 3}
   textoNarrativo: "\xA1I  Rapido! creo que los soldados....."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0

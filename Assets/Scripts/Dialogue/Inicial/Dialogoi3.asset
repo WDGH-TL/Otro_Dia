@@ -16,6 +16,7 @@ MonoBehaviour:
   characterSprite: {fileID: -3601798897656092099, guid: 6fc8a1abeaf942849a47d461b2b43c8d, type: 3}
   textoNarrativo: " \xA1I! \xA1Despierta los soldados vienen!"
   opciones: []
+  audioClip: {fileID: 8300000, guid: 27ff539436f259348b7138c14d3885cc, type: 3}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
