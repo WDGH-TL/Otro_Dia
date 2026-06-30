@@ -16,7 +16,8 @@ MonoBehaviour:
   characterSprite: {fileID: -8191288174234573537, guid: ad6f4de4b4b905d4c926a095ecace9cd, type: 3}
   textoNarrativo: "Estoy empleada de hecho, lo consegu\xED hace poco."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 92
+  indiceDestinoNext: 91

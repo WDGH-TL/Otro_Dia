@@ -17,11 +17,12 @@ MonoBehaviour:
   textoNarrativo: "\xBFCreen en dios?"
   opciones:
   - textoOpcion: Si
-    indiceDestino: 98
+    indiceDestino: 97
     spritePersonaje: {fileID: 0}
   - textoOpcion: No
-    indiceDestino: 105
+    indiceDestino: 104
     spritePersonaje: {fileID: 0}
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 0
   isDecision: 1

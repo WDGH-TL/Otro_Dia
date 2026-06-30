@@ -18,11 +18,12 @@ MonoBehaviour:
     casa luego de llevarle las cartas a su hermano?"
   opciones:
   - textoOpcion: Era muy Tarde
-    indiceDestino: 63
+    indiceDestino: 62
     spritePersonaje: {fileID: 0}
   - textoOpcion: Discuti con I
     indiceDestino: 45
     spritePersonaje: {fileID: 0}
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 0
   isDecision: 1

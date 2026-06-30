@@ -18,7 +18,8 @@ MonoBehaviour:
     como si aun fuera a la escuela, aunque por sus harapos si que podr\xEDa encajar
     en una...."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 41
+  indiceDestinoNext: 40

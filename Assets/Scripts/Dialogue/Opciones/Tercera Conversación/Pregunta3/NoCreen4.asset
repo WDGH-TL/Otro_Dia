@@ -16,7 +16,8 @@ MonoBehaviour:
   characterSprite: {fileID: -817014919062194682, guid: 331a075bc6e3f4f42bb88036e2400f74, type: 3}
   textoNarrativo: ......Tampoco creo
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 109
+  indiceDestinoNext: 108

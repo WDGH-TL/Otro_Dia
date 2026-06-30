@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: "Si, supongo que hay cierto sentido se podr\xEDa llegar con las
     justas, pero dos cosas."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 78
+  indiceDestinoNext: 77

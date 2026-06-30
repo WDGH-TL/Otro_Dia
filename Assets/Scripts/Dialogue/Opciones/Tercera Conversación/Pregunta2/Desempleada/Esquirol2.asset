@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: "Pobre, usted no tiene la culpa, la tienen el MNLF y los protestantes....
     asi que no se culpe, \xBFokay?"
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 35
+  indiceDestinoNext: 34

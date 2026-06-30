@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: "Era tarde cuando llegue, as\xED que por insistencia de mi hermano
     me quede."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 64
+  indiceDestinoNext: 63

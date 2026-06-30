@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: "Yo soy creyente, voy todos los domingos a la iglesia m\xE1s cercana
     de hecho."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 99
+  indiceDestinoNext: 98

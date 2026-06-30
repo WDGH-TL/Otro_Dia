@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: Rellenamos con ayuda de la familia de A, la amiga de mi hermano
     con la que nos quedamos esa noche.
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 82
+  indiceDestinoNext: 81

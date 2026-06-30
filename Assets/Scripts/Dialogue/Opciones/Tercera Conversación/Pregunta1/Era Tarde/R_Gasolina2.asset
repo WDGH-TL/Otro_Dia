@@ -18,11 +18,12 @@ MonoBehaviour:
     antes que nosotros?"
   opciones:
   - textoOpcion: Tomamos el bus
-    indiceDestino: 76
+    indiceDestino: 75
     spritePersonaje: {fileID: 0}
   - textoOpcion: "Rellenamos en la ma\xF1ana"
-    indiceDestino: 81
+    indiceDestino: 80
     spritePersonaje: {fileID: 0}
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0

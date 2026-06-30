@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: "He decidido abrir un negocio local de sastrer\xEDa para vecinos
     y amigos."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 97
+  indiceDestinoNext: 96

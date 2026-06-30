@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: "Actualmente estoy desempleada, trabajaba en una costurer\xEDa
     de los Regalado por El Metro......"
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 84
+  indiceDestinoNext: 83

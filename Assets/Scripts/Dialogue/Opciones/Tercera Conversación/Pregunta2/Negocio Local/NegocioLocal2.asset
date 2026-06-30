@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: Una labor humilde y noble, la verdad, quizas me pase  alguna vez
     por una camisa.
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 35
+  indiceDestinoNext: 34

@@ -18,7 +18,8 @@ MonoBehaviour:
     lo ser\xE1n de noche, asi que si, entiendo el porque, aunque a\xFAn tengo otra
     pregunta respecto a eso."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 65
+  indiceDestinoNext: 64
