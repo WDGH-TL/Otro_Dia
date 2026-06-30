@@ -19,7 +19,8 @@ MonoBehaviour:
     a la tele, por lo que no podr\xEDan haber discutido de eso, por que un fan\xE1tico
     ya lo sabr\xEDa."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 32
+  indiceDestinoNext: 58

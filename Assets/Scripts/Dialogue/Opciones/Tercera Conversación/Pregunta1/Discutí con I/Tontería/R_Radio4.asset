@@ -19,7 +19,8 @@ MonoBehaviour:
     y puedo asegurarle que siempre que tengo un rato libre lo escucho ya sea en televisi\xF3n
     o radio."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 31
+  indiceDestinoNext: 57

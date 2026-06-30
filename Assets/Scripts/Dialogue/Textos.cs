@@ -8,8 +8,6 @@ public struct OpcionRespuesta
     public string textoOpcion;
     public int indiceDestino;
     public Image spritePersonaje;
-    public AudioSource audio;
-
 }
 
 
@@ -23,7 +21,7 @@ public class Textos : ScriptableObject
 
     
     public OpcionRespuesta[] opciones;
-
+    public AudioClip audioClip;
 
     public bool esFinal;
     public bool hasDestinoNext;

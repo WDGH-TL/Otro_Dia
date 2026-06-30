@@ -19,11 +19,18 @@ public class Dialogue : MonoBehaviour
 
     private Textos plantillaActual;
 
+    private AudioSource audio;
+
     void Start()
     {
         btnChangeScene.gameObject.SetActive(false);
         btnNext.gameObject.SetActive(false);
         MostrarTexto(todasLasPlantillas[0]);
+
+        if (audio == null)
+        {
+            audio = GetComponent<AudioSource>();
+        }
     }
 
     public void MostrarTexto(Textos nuevaPlantilla)
@@ -44,6 +51,12 @@ public class Dialogue : MonoBehaviour
             {
                 imgPersonaje.gameObject.SetActive(false);
             }
+        }
+
+        if (plantillaActual.audioClip != null)
+        {
+            audio.clip = plantillaActual.audioClip;
+            audio.Play();
         }
 
         if (plantillaActual.esFinal || plantillaActual.opciones.Length == 0)

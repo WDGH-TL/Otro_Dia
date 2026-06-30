@@ -17,6 +17,7 @@ MonoBehaviour:
   textoNarrativo: Hmmmm, si supongo que tiene sentido, y podemos interrogarles luego
     para confirmar sus palabras.
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0

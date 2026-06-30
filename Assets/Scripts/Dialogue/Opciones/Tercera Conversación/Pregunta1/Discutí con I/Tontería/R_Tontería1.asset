@@ -16,7 +16,8 @@ MonoBehaviour:
   characterSprite: {fileID: -4423149253804846325, guid: 127b185d1661b3e4ca298c41718dff29, type: 3}
   textoNarrativo: "Sinceramente, fue por una tonter\xEDa...."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 62
+  indiceDestinoNext: 61

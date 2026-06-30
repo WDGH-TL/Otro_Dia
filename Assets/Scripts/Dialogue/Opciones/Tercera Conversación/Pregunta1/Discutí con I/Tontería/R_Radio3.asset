@@ -17,7 +17,8 @@ MonoBehaviour:
   textoNarrativo: "Si, I es un fan\xE1tico del futbol, y la radio se da\xF1o hace
     poco as\xED que no pudo escuchar sobre el \xFAltimo partido por lo que--"
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 30
+  indiceDestinoNext: 56
