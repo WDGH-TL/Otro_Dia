@@ -19,18 +19,18 @@ MonoBehaviour:
     MNLF"
   opciones:
   - textoOpcion: Reprocharlo
-    indiceDestino: 0
+    indiceDestino: 44
     spritePersonaje: {fileID: 0}
   - textoOpcion: Intentar disuadirlo
-    indiceDestino: 0
+    indiceDestino: 41
     spritePersonaje: {fileID: 0}
   - textoOpcion: Reconfortarlo
-    indiceDestino: 0
+    indiceDestino: 43
     spritePersonaje: {fileID: 0}
   - textoOpcion: Guardar Silencio
-    indiceDestino: 0
+    indiceDestino: 45
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
-  isDecision: 0
-  indiceDestinoNext: 7
+  hasDestinoNext: 0
+  isDecision: 1
+  indiceDestinoNext: 0
