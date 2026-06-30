@@ -24,6 +24,15 @@ public class Enemy : MonoBehaviour
 
     public Animator anim;
 
+    [Header("Configuración de Sonido")]
+    public AudioSource fuenteAudio; // El componente que reproduce el sonido
+    public AudioClip sonidoCaminar;  // El archivo de sonido de los pasos
+
+    [Header("Configuración de Aspecto")]
+    public Sprite spriteNuevaZona; // El nuevo sprite para cuando cambie de zona
+    [Tooltip("El número de segmento a partir del cual cambiará el sprite (Empezando desde 0)")]
+    public int segmentoParaCambiarSprite = 2; // Ejemplo: cambia al empezar el segmento 2
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -48,17 +57,37 @@ public class Enemy : MonoBehaviour
 
         if (velocidad < 0)
         {
-            anim.SetBool("Moviendo", true);
+            anim.SetBool("Moviendo", false);
+
+            // Si el enemigo no se mueve, detenemos el sonido
+            if (fuenteAudio != null && fuenteAudio.isPlaying)
+            {
+                fuenteAudio.Stop();
+            }
         }
         else
         {
-            anim.SetBool("Moviendo", false);
+            anim.SetBool("Moviendo", true);
+
+            // Si se está moviendo y el sonido NO está sonando, lo reproducimos en bucle
+            if (fuenteAudio != null && sonidoCaminar != null && !fuenteAudio.isPlaying)
+            {
+                fuenteAudio.clip = sonidoCaminar;
+                fuenteAudio.loop = true; // Hace que el sonido se repita constantemente
+                fuenteAudio.Play();
+            }
         }
     }
 
     private void IniciarSegmento(int indice)
     {
         indiceActual = indice;
+
+        // NUEVO: Comprobamos si ya alcanzamos o superamos el segmento indicado para cambiar el sprite
+        if (indiceActual >= segmentoParaCambiarSprite)
+        {
+            CambiarAspectoNuevaZona();
+        }
 
         // Verificamos si aún nos quedan pares de puntos por recorrer
         if (indiceActual < segmentos.Length)
@@ -76,6 +105,12 @@ public class Enemy : MonoBehaviour
         {
             // Si ya terminó de recorrer todos los pares de puntos, se oculta
             gameObject.SetActive(false);
+
+            // Detenemos el sonido si el objeto se desactiva
+            if (fuenteAudio != null && fuenteAudio.isPlaying)
+            {
+                fuenteAudio.Stop();
+            }
         }
     }
 
@@ -112,5 +147,15 @@ public class Enemy : MonoBehaviour
 
         // Una vez terminada la corrutina, pasamos al siguiente par de puntos
         IniciarSegmento(indiceActual + 1);
+    }
+
+    // Cambia el aspecto del sprite usando el SpriteRenderer
+    public void CambiarAspectoNuevaZona()
+    {
+        SpriteRenderer renderizador = GetComponent<SpriteRenderer>();
+        if (renderizador != null && spriteNuevaZona != null)
+        {
+            renderizador.sprite = spriteNuevaZona;
+        }
     }
 }

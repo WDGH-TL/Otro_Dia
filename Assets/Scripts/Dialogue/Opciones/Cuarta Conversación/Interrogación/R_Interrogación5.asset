@@ -16,6 +16,7 @@ MonoBehaviour:
   characterSprite: {fileID: 0}
   textoNarrativo: 
   opciones: []
+  audioClip: {fileID: 8300000, guid: 325631e3a3dd6554489d822314167612, type: 3}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0

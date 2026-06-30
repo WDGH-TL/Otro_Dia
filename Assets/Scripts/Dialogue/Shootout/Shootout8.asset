@@ -17,6 +17,7 @@ MonoBehaviour:
   textoNarrativo: Pida ayuda o no, es un marero, seguramente solo quiere usarnos
     de alguna forma.
   opciones: []
+  audioClip: {fileID: 8300000, guid: b33e2cff5225f4437a43a11d35763d46, type: 3}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0

@@ -16,6 +16,7 @@ MonoBehaviour:
   characterSprite: {fileID: 0}
   textoNarrativo: "\xBFNo lo escuchas? est\xE1 pidiendo ayuda."
   opciones: []
+  audioClip: {fileID: 8300000, guid: b2d159f7e00d44d9bbc2d50a0c4fef59, type: 3}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
