@@ -438,7 +438,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 41
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1393,7 +1393,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 3
+          m_IntArgument: 45
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2520,7 +2520,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 44
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3153,6 +3153,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 355c82645b91e3047a64d3a453eb91a1, type: 2}
   - {fileID: 11400000, guid: 8cff8959f5c6f9c4c8b0eceebc3c9d0f, type: 2}
   - {fileID: 11400000, guid: 991abe2bb53a79b4aa280bac45d90061, type: 2}
+  - {fileID: 11400000, guid: a227a2fdaabc7fa4b825c36d5d7c5407, type: 2}
+  - {fileID: 11400000, guid: 042e125a10ce82346a065cb6ed2daad0, type: 2}
+  - {fileID: 11400000, guid: c773ae0381876ef469c6f10199ddbf3e, type: 2}
+  - {fileID: 11400000, guid: d4479f1f5fa0d3d48b97f46f84fa9a70, type: 2}
+  - {fileID: 11400000, guid: 3a62b804d69a3bf4f9a00ffa6f65452c, type: 2}
+  - {fileID: 11400000, guid: 5edaf65c7391a764eb61d2b2a2834522, type: 2}
+  - {fileID: 11400000, guid: 6a56710ba73087b489214e53888b205f, type: 2}
+  - {fileID: 11400000, guid: d76656f1c931e2246aa435ebfe3f0024, type: 2}
+  - {fileID: 11400000, guid: d55e9a80d2465fa4e8ed6ccf06fd6da9, type: 2}
+  - {fileID: 11400000, guid: db04c4eb8f05d5a4b8e0c4b6d0f9066e, type: 2}
+  - {fileID: 11400000, guid: de7d30bad36de9b4aa59ada88e3d990d, type: 2}
+  - {fileID: 11400000, guid: 06b55201d129fc242b23da133856392b, type: 2}
+  - {fileID: 11400000, guid: b226f8c0df3c73d45833c27935bd978f, type: 2}
+  - {fileID: 11400000, guid: 56600e27b8304ef4eabd5252b71c9016, type: 2}
   nombre: {fileID: 586753836}
   textoNarracion: {fileID: 1286318226}
   imgPersonaje: {fileID: 1641119767}
@@ -3400,7 +3414,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 43
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
