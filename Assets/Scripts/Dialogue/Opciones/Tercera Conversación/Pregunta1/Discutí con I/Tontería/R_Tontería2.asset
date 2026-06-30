@@ -18,10 +18,10 @@ MonoBehaviour:
     con lujo de detalles."
   opciones:
   - textoOpcion: Fue por el dinero
-    indiceDestino: 0
+    indiceDestino: 50
     spritePersonaje: {fileID: 0}
   - textoOpcion: Fue por la radio
-    indiceDestino: 0
+    indiceDestino: 54
     spritePersonaje: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1

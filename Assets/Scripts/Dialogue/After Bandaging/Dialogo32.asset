@@ -18,15 +18,15 @@ MonoBehaviour:
     ahora mismo?"
   opciones:
   - textoOpcion: Negocio local
-    indiceDestino: 0
+    indiceDestino: 96
     spritePersonaje: {fileID: 0}
   - textoOpcion: Desempleada
-    indiceDestino: 0
+    indiceDestino: 83
     spritePersonaje: {fileID: 0}
   - textoOpcion: Empleada
-    indiceDestino: 0
+    indiceDestino: 91
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
-  isDecision: 0
+  hasDestinoNext: 0
+  isDecision: 1
   indiceDestinoNext: 0

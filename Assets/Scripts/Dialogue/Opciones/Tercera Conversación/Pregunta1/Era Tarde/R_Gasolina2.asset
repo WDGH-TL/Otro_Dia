@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
-  m_Name: R_Gasolina
+  m_Name: R_Gasolina2
   m_EditorClassIdentifier: 
   nombre: O
   characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
@@ -18,10 +18,10 @@ MonoBehaviour:
     antes que nosotros?"
   opciones:
   - textoOpcion: Tomamos el bus
-    indiceDestino: 0
+    indiceDestino: 76
     spritePersonaje: {fileID: 0}
   - textoOpcion: "Rellenamos en la ma\xF1ana"
-    indiceDestino: 0
+    indiceDestino: 81
     spritePersonaje: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1

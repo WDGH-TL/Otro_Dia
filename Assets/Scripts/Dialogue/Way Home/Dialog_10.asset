@@ -17,6 +17,6 @@ MonoBehaviour:
   textoNarrativo: Igualmente lo siento L.
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 10

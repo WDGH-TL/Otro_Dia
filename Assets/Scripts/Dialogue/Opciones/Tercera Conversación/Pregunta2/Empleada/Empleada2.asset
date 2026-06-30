@@ -18,12 +18,12 @@ MonoBehaviour:
     le cayo ese regalo del cielo?"
   opciones:
   - textoOpcion: Iglesia
-    indiceDestino: 0
+    indiceDestino: 94
     spritePersonaje: {fileID: 0}
   - textoOpcion: Camarera
-    indiceDestino: 0
+    indiceDestino: 93
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
-  isDecision: 0
+  hasDestinoNext: 0
+  isDecision: 1
   indiceDestinoNext: 0

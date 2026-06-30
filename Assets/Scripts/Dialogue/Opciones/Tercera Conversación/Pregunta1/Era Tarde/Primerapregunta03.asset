@@ -17,15 +17,15 @@ MonoBehaviour:
   textoNarrativo: "El se\xF1or B ten\xEDa auto, \xBFpor que no volvieron en el?"
   opciones:
   - textoOpcion: Estaba cansado
-    indiceDestino: 0
+    indiceDestino: 66
     spritePersonaje: {fileID: 0}
   - textoOpcion: "Perdi\xF3 las llaves"
-    indiceDestino: 0
+    indiceDestino: 72
     spritePersonaje: {fileID: 0}
   - textoOpcion: No quedaba gasolina
-    indiceDestino: 0
+    indiceDestino: 70
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
-  isDecision: 0
+  hasDestinoNext: 0
+  isDecision: 1
   indiceDestinoNext: 0

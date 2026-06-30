@@ -2854,6 +2854,36 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3563da4cfb31a31459f4896aa8d2e279, type: 2}
   - {fileID: 11400000, guid: f45d170e9ba00fb409ca89011ae9750b, type: 2}
   - {fileID: 11400000, guid: ae0d77c4ae8ce84499bf6c98fd7f87d2, type: 2}
+  - {fileID: 11400000, guid: 2b1b1de01a7c72e439b2d7975db9d1b8, type: 2}
+  - {fileID: 11400000, guid: 1e0cca7e5ceecc740a6e8ff2cb1b83ca, type: 2}
+  - {fileID: 11400000, guid: 3f1a33c5c9f3ba64489e2f1260fe6d98, type: 2}
+  - {fileID: 11400000, guid: f3bcf8878bde58d419b8d72f5b5bc615, type: 2}
+  - {fileID: 11400000, guid: 2d46125a281a9d544b28208c5edb69c2, type: 2}
+  - {fileID: 11400000, guid: a0ca26a67ccf6344598fffefb737611c, type: 2}
+  - {fileID: 11400000, guid: 9d54015f3bbf1644e9b105b1935da56e, type: 2}
+  - {fileID: 11400000, guid: 6f6e7cfe5ac5630459684fbd9fa9babf, type: 2}
+  - {fileID: 11400000, guid: ad9a2f24126341c45ace8cb3409e9b54, type: 2}
+  - {fileID: 11400000, guid: aea29c111f422184fb3e2b04b10aa64d, type: 2}
+  - {fileID: 11400000, guid: 8839823619000244caa277c065566aef, type: 2}
+  - {fileID: 11400000, guid: 69421c8ce1d75754496aa143ec786a56, type: 2}
+  - {fileID: 11400000, guid: ede8dabbb4079c345b07add50876c15c, type: 2}
+  - {fileID: 11400000, guid: 462ec0b54bdf62f4a85251697b84e4e2, type: 2}
+  - {fileID: 11400000, guid: 1db141a08013d48499d5b812dbbd5b91, type: 2}
+  - {fileID: 11400000, guid: a43445bee03d2b54aa88419b41529794, type: 2}
+  - {fileID: 11400000, guid: 63d96fb05e922024b887784dfd8e39bd, type: 2}
+  - {fileID: 11400000, guid: 5b566e3a21a01db4288876efc9d1abd3, type: 2}
+  - {fileID: 11400000, guid: 028eb85f88085914cb9a0ce369c50b6c, type: 2}
+  - {fileID: 11400000, guid: 01f1df90204e2b846bea2f8d27b8cc1a, type: 2}
+  - {fileID: 11400000, guid: 6bffa94ac0ace4448b26cdf35dd67874, type: 2}
+  - {fileID: 11400000, guid: e9fa83fba33106a41a98ebf07d53604f, type: 2}
+  - {fileID: 11400000, guid: 421f2bd2556992d4a975642c3d972023, type: 2}
+  - {fileID: 11400000, guid: a1ce5a8036adc4b4089e7c6ca59a79b0, type: 2}
+  - {fileID: 11400000, guid: ff0acf37bc0811c4585cfd51c861e812, type: 2}
+  - {fileID: 11400000, guid: 328c33e68ce7d13478f35482dc2b6a14, type: 2}
+  - {fileID: 11400000, guid: ba21c70cf7fa4a140bac035da75c77d7, type: 2}
+  - {fileID: 11400000, guid: 2b0593c642e105a4c81345054b214133, type: 2}
+  - {fileID: 11400000, guid: dbd5362d419d1474392eb7a89c593564, type: 2}
+  - {fileID: 11400000, guid: 51d2a9a7d0fc71e458edd7e47f5be77f, type: 2}
   nombre: {fileID: 586753836}
   textoNarracion: {fileID: 1286318226}
   imgPersonaje: {fileID: 0}

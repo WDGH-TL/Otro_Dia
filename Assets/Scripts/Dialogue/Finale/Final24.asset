@@ -26,6 +26,6 @@ MonoBehaviour:
     indiceDestino: 0
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
+  hasDestinoNext: 0
   isDecision: 1
   indiceDestinoNext: 0
