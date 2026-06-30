@@ -8,7 +8,8 @@ public struct OpcionRespuesta
     public string textoOpcion;
     public int indiceDestino;
     public Image spritePersonaje;
-   
+    public AudioSource audio;
+
 }
 
 

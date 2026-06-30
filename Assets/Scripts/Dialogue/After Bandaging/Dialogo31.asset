@@ -21,7 +21,7 @@ MonoBehaviour:
     indiceDestino: 63
     spritePersonaje: {fileID: 0}
   - textoOpcion: Discuti con I
-    indiceDestino: 46
+    indiceDestino: 45
     spritePersonaje: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 0

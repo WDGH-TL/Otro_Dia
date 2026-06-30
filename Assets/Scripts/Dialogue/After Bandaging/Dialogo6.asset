@@ -17,15 +17,15 @@ MonoBehaviour:
   textoNarrativo: "\xBFPor que hab\xEDan soldados busc\xE1ndote?"
   opciones:
   - textoOpcion: Confesar
-    indiceDestino: 0
+    indiceDestino: 109
     spritePersonaje: {fileID: 0}
   - textoOpcion: Mentir
-    indiceDestino: 0
+    indiceDestino: 111
     spritePersonaje: {fileID: 0}
   - textoOpcion: Evitar la Pregunta
-    indiceDestino: 0
+    indiceDestino: 110
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
-  isDecision: 0
+  hasDestinoNext: 0
+  isDecision: 1
   indiceDestinoNext: 0

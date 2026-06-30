@@ -1558,7 +1558,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3c28b25dfc1c4a34f965843cf820f822, type: 2}
   - {fileID: 11400000, guid: 1a17567623d83964a82e3d23402cce57, type: 2}
   - {fileID: 11400000, guid: 73b87ddf974011a42afedb60835084b5, type: 2}
-  - {fileID: 11400000, guid: 73b87ddf974011a42afedb60835084b5, type: 2}
   - {fileID: 11400000, guid: efd9857a2dc05d24697eb97ef41f654a, type: 2}
   - {fileID: 11400000, guid: eb804943d6af6bc478746daa2444631a, type: 2}
   - {fileID: 11400000, guid: 265ab1d3bdf7a7f448544eec80f9b20e, type: 2}
@@ -1663,6 +1662,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e6bc3f7744ef22f499680414427515a0, type: 2}
   - {fileID: 11400000, guid: df5b6cc4a2d37c5408744b6f3f83e003, type: 2}
   - {fileID: 11400000, guid: 96866e0cc9e216d48980e502ce9b5342, type: 2}
+  - {fileID: 11400000, guid: ea46b2a9638438f4cbbb2798e4f43059, type: 2}
+  - {fileID: 11400000, guid: 8986d3f852969884aa0897a32ee82e2e, type: 2}
+  - {fileID: 11400000, guid: 68321bfbdb0a2154b947b994067ee613, type: 2}
   nombre: {fileID: 1332447834}
   textoNarracion: {fileID: 1465077688}
   imgPersonaje: {fileID: 711887134}
