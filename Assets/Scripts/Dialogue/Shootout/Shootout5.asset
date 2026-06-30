@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shootout5
   m_EditorClassIdentifier: 
   nombre: B
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -6357813182121864475, guid: 1393d17e903e15e428c80d8271216036, type: 3}
   textoNarrativo: "Carajo, \xA1es M!"
   opciones: []
   audioClip: {fileID: 8300000, guid: b33e2cff5225f4437a43a11d35763d46, type: 3}
@@ -21,3 +21,4 @@ MonoBehaviour:
   hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 5
+  goToLose: 0

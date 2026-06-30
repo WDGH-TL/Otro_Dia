@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shootout6
   m_EditorClassIdentifier: 
   nombre: I
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -512182371410995993, guid: d69b43af284ef954488fa778ee735946, type: 3}
   textoNarrativo: "\xA1Alto! es demasiado peligroso."
   opciones: []
   audioClip: {fileID: 8300000, guid: 0dbe91efb8ee94e6695ef0f552d202ce, type: 3}
@@ -21,3 +21,4 @@ MonoBehaviour:
   hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 6
+  goToLose: 0

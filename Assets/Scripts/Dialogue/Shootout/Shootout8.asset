@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shootout8
   m_EditorClassIdentifier: 
   nombre: I
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -512182371410995993, guid: d69b43af284ef954488fa778ee735946, type: 3}
   textoNarrativo: Pida ayuda o no, es un marero, seguramente solo quiere usarnos
     de alguna forma.
   opciones: []
@@ -22,3 +22,4 @@ MonoBehaviour:
   hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 8
+  goToLose: 0

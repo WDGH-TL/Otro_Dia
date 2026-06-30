@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shootout11
   m_EditorClassIdentifier: 
   nombre: L
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -4423149253804846325, guid: 127b185d1661b3e4ca298c41718dff29, type: 3}
   textoNarrativo: Tr-tranquilo, ven a la mesa, vas a estar bien mijo.
   opciones: []
   audioClip: {fileID: 8300000, guid: b33e2cff5225f4437a43a11d35763d46, type: 3}
@@ -21,3 +21,4 @@ MonoBehaviour:
   hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 11
+  goToLose: 0

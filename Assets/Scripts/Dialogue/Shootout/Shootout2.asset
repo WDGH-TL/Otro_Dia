@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shootout2
   m_EditorClassIdentifier: 
   nombre: I
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: 7740444552407078816, guid: 4155fbf64773bb8459aa16011ef7c870, type: 3}
   textoNarrativo: "Parece ser una balacera entre gente del MNLF, y las maras, qued\xE9nse
     aqu\xED, y no se asomen por las ventanas ambos."
   opciones: []
@@ -22,3 +22,4 @@ MonoBehaviour:
   hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 2
+  goToLose: 0

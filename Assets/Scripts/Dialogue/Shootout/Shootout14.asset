@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Shootout14
   m_EditorClassIdentifier: 
   nombre: L
-  characterSprite: {fileID: 0}
-  textoNarrativo: "\xA1Pues nusquen el alcohol!"
+  characterSprite: {fileID: -236545662669077532, guid: 70169562e6c0761468ac8924757f2e2a, type: 3}
+  textoNarrativo: "\xA1Pues busquen el alcohol!"
   opciones: []
   audioClip: {fileID: 8300000, guid: b33e2cff5225f4437a43a11d35763d46, type: 3}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 14
+  goToLose: 0

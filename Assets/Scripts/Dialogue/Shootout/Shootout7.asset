@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shootout7
   m_EditorClassIdentifier: 
   nombre: B
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -8777291186319396451, guid: 7a5e3b44c30774445aa3639865451c9b, type: 3}
   textoNarrativo: "\xBFNo lo escuchas? est\xE1 pidiendo ayuda."
   opciones: []
   audioClip: {fileID: 8300000, guid: b2d159f7e00d44d9bbc2d50a0c4fef59, type: 3}
@@ -21,3 +21,4 @@ MonoBehaviour:
   hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 7
+  goToLose: 0

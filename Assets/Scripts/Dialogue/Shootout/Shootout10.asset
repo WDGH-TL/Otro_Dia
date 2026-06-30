@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shootout10
   m_EditorClassIdentifier: 
   nombre: M
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -8917449358355069217, guid: 266c859de731cc44f8c431e26dd85703, type: 3}
   textoNarrativo: "Gr-gracias do\xF1a...."
   opciones: []
   audioClip: {fileID: 8300000, guid: b2d159f7e00d44d9bbc2d50a0c4fef59, type: 3}
@@ -21,3 +21,4 @@ MonoBehaviour:
   hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 10
+  goToLose: 0

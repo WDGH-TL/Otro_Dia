@@ -47,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Shootout.unity
     guid: 3b18f7e6430c2db4ea76369baa426fcd
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: fa78fb8dfd4751a44896609be338bfe4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
