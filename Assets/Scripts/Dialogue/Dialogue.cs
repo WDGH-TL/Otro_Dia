@@ -20,7 +20,7 @@ public class Dialogue : MonoBehaviour
 
     private Textos plantillaActual;
 
-   public AudioSource audioCLip;
+    public AudioSource audioCLip;
 
     void Start()
     {
@@ -48,7 +48,6 @@ public class Dialogue : MonoBehaviour
 
         if (imgPersonaje != null)
         {
-            
             if (plantillaActual.characterSprite != null)
             {
                 imgPersonaje.sprite = plantillaActual.characterSprite;
@@ -70,17 +69,11 @@ public class Dialogue : MonoBehaviour
         {
             foreach (GameObject boton in botonesUI)
             {
-                boton.SetActive(false);
-            }
-            if (plantillaActual.goToLose)
-            {
-                btnChangeScene.gameObject.SetActive(false);
-                if (btnGoToLose != null) {
-                    btnGoToLose.SetActive(true);
+                if (boton != null)
+                {
+                    boton.SetActive(false);
                 }
-                   
             }
-                
         }
         else
         {
@@ -98,11 +91,11 @@ public class Dialogue : MonoBehaviour
                             textoHijo.text = plantillaActual.opciones[i].textoOpcion;
                         }
 
-                         Button botonComponente = botonesUI[i].GetComponent<Button>();
+                        Button botonComponente = botonesUI[i].GetComponent<Button>();
                         if (botonComponente != null)
                         {
-                            botonComponente.onClick.RemoveAllListeners(); 
-                            int indiceCapturado = i; 
+                            botonComponente.onClick.RemoveAllListeners();
+                            int indiceCapturado = i;
                             botonComponente.onClick.AddListener(() => ControlDeBotones(indiceCapturado));
                         }
                     }
@@ -114,38 +107,41 @@ public class Dialogue : MonoBehaviour
             }
         }
 
-        if (!plantillaActual.hasDestinoNext)
+        // CONTROL DE NAVEGACIÓN CORREGIDO
+        if (plantillaActual.goToLose)
         {
-            if (plantillaActual.isDecision)
+            btnNext.gameObject.SetActive(false);
+            btnChangeScene.gameObject.SetActive(false);
+            if (btnGoToLose != null)
             {
-                btnNext.gameObject.SetActive(false);
-                btnChangeScene.gameObject.SetActive(false);
-                if (btnGoToLose != null) { btnGoToLose.SetActive(false); }
-                
+                btnGoToLose.SetActive(true);
             }
-            else
+        }
+        else if (plantillaActual.hasDestinoNext)
+        {
+            btnNext.gameObject.SetActive(true);
+            btnChangeScene.gameObject.SetActive(false);
+            if (btnGoToLose != null)
             {
-                btnNext.gameObject.SetActive(false);
-
-                if (plantillaActual.goToLose)
-                {
-                    if (btnGoToLose != null) { btnGoToLose.SetActive(false); }
-                }
-                else
-                {
-                    btnChangeScene.gameObject.SetActive(true);
-                }   
-
+                btnGoToLose.SetActive(false);
             }
         }
         else
         {
-            btnNext.gameObject.SetActive(true);
-            
-            if (btnGoToLose != null) { 
+            btnNext.gameObject.SetActive(false);
+            if (btnGoToLose != null)
+            {
                 btnGoToLose.SetActive(false);
             }
-            btnChangeScene.gameObject.SetActive(false);
+
+            if (plantillaActual.isDecision)
+            {
+                btnChangeScene.gameObject.SetActive(false);
+            }
+            else
+            {
+                btnChangeScene.gameObject.SetActive(true);
+            }
         }
     }
 
