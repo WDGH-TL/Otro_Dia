@@ -21,3 +21,4 @@ MonoBehaviour:
   hasDestinoNext: 0
   isDecision: 0
   indiceDestinoNext: 0
+  goToLose: 1

@@ -366,7 +366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &381816137
 RectTransform:
   m_ObjectHideFlags: 0
@@ -546,7 +546,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 608421108}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: HidingMinigame
+        m_MethodName: Finale
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -609,11 +609,11 @@ RectTransform:
   - {fileID: 907155562}
   m_Father: {fileID: 743843462}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 202, y: -193}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 232, y: 88.40001}
   m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2224,11 +2224,11 @@ RectTransform:
   - {fileID: 596176640}
   m_Father: {fileID: 743843462}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 202, y: -193}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 232, y: 88.4}
   m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 1, y: 0}
 --- !u!114 &1196370330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2823,7 +2823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1572382693
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3385,14 +3385,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   todasLasPlantillas:
-  - {fileID: 11400000, guid: a0b81c1360603de46bc1df2d646b49e4, type: 2}
-  - {fileID: 11400000, guid: ed06c31344319b747a559451070f35c6, type: 2}
-  - {fileID: 11400000, guid: 3afb84495a3e2c64ba4b9a323ed852eb, type: 2}
-  - {fileID: 11400000, guid: 285d9b7de0fc18142af74a792aaee7c7, type: 2}
-  - {fileID: 11400000, guid: 4e751a1f79a10584da1debc61db6fe55, type: 2}
-  - {fileID: 11400000, guid: 0aab4c3122427bb4e9df47dc405cd0ee, type: 2}
-  - {fileID: 11400000, guid: 54041f05bee8e07428a08be284778976, type: 2}
-  - {fileID: 11400000, guid: 5cff8888e58c2914ebcb2b3702942072, type: 2}
+  - {fileID: 11400000, guid: db09be84ee5a9e3449869b59611ad5ae, type: 2}
+  - {fileID: 11400000, guid: 9d089c8a6ef81fb4197928e0cf0613d3, type: 2}
+  - {fileID: 11400000, guid: 270606061230fe4469faf3e1cd619200, type: 2}
+  - {fileID: 11400000, guid: 54308ba0d3386e54c94acbb1f99abd31, type: 2}
+  - {fileID: 11400000, guid: fb2ec652115bced4ea1a89708c16a129, type: 2}
+  - {fileID: 11400000, guid: 45e0f91dd68748d41821748baec21b5f, type: 2}
+  - {fileID: 11400000, guid: aca00d197d895a141a0c17b9a9a864af, type: 2}
+  - {fileID: 11400000, guid: 4f7abe217a1be1041bcbbf37d8c35497, type: 2}
+  - {fileID: 11400000, guid: fb8354a2bc791c045b2a8b06a16f88ff, type: 2}
+  - {fileID: 11400000, guid: 4445794086b53d64c96a45858df4deeb, type: 2}
+  - {fileID: 11400000, guid: 465accb7b8cc164429022c8e968b1c28, type: 2}
+  - {fileID: 11400000, guid: 98c3c4caf2ea78d4dac92f206014650c, type: 2}
+  - {fileID: 11400000, guid: 7349b5200c9770c4ab1dd193e388c591, type: 2}
+  - {fileID: 11400000, guid: e58438b733e8773469982df72ff5dc2b, type: 2}
+  - {fileID: 11400000, guid: 6ff0f65697eedaa44b65a091c1be42d0, type: 2}
   nombre: {fileID: 586753836}
   textoNarracion: {fileID: 1286318226}
   imgPersonaje: {fileID: 0}
@@ -3402,6 +3409,8 @@ MonoBehaviour:
   - {fileID: 2005629203}
   btnNext: {fileID: 1196370328}
   btnChangeScene: {fileID: 493978744}
+  btnGoToLose: {fileID: 0}
+  audioCLip: {fileID: 0}
 --- !u!4 &1850913199
 Transform:
   m_ObjectHideFlags: 0
@@ -3587,7 +3596,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2005629204
 MonoBehaviour:
   m_ObjectHideFlags: 0

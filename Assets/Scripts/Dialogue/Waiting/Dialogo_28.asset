@@ -17,7 +17,9 @@ MonoBehaviour:
   textoNarrativo: La vida siempre nos da palos, pero siempre hay esperanza al final
     del camino.
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 0
+  indiceDestinoNext: 28
+  goToLose: 0

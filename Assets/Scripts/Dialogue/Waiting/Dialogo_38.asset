@@ -16,7 +16,9 @@ MonoBehaviour:
   characterSprite: {fileID: -4701229886397826262, guid: 215b11892ca9d424cbf3efccecaf62ff, type: 3}
   textoNarrativo: D-deja de ser tan dramatica, enserio...
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 38
+  indiceDestinoNext: 39
+  goToLose: 0

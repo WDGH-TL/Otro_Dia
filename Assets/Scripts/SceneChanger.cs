@@ -52,7 +52,7 @@ public class SceneChanger : MonoBehaviour
     }
     public void LastExplor()
     {
-        SceneManager.LoadScene("Last Exploration");
+        SceneManager.LoadScene("Last Exploraton");
     }
     public void Shootout()
     {
@@ -62,5 +62,9 @@ public class SceneChanger : MonoBehaviour
     public void WayHome()
     {
         SceneManager.LoadScene("On the way Home");
+    }
+    public void credits()
+    {
+        SceneManager.LoadScene("Credits");
     }
 }

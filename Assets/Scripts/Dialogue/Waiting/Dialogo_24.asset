@@ -22,7 +22,9 @@ MonoBehaviour:
   - textoOpcion: Contar una historia
     indiceDestino: 42
     spritePersonaje: {fileID: 0}
+  audioClip: {fileID: 0}
   esFinal: 0
   hasDestinoNext: 0
-  isDecision: 0
+  isDecision: 1
   indiceDestinoNext: 0
+  goToLose: 0

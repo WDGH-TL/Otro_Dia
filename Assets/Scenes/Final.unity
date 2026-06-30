@@ -546,7 +546,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 608421108}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: HidingMinigame
+        m_MethodName: credits
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2907,6 +2907,8 @@ MonoBehaviour:
   - {fileID: 2005629203}
   btnNext: {fileID: 1196370328}
   btnChangeScene: {fileID: 493978744}
+  btnGoToLose: {fileID: 0}
+  audioCLip: {fileID: 0}
 --- !u!4 &1850913199
 Transform:
   m_ObjectHideFlags: 0

@@ -16,7 +16,9 @@ MonoBehaviour:
   characterSprite: {fileID: -1382106150186592963, guid: 976f9ffe0898ce94bbd0f4ca8e4bee67, type: 3}
   textoNarrativo: "Creo que tendr\xE1 que acompa\xF1arnos, se\xF1ora L."
   opciones: []
+  audioClip: {fileID: 0}
   esFinal: 1
   hasDestinoNext: 0
   isDecision: 0
   indiceDestinoNext: 0
+  goToLose: 1

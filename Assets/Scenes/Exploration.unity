@@ -6779,7 +6779,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 32740565}
         m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
-        m_MethodName: BandagingMinigame
+        m_MethodName: waiting
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
