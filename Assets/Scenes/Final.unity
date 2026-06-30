@@ -438,7 +438,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 55
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2473,7 +2473,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 24
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2900,7 +2900,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 748abbc10892c084b916bef7900adde5, type: 2}
   nombre: {fileID: 586753836}
   textoNarracion: {fileID: 1286318226}
-  imgPersonaje: {fileID: 0}
+  imgPersonaje: {fileID: 1641119767}
   botonesUI:
   - {fileID: 1572382692}
   - {fileID: 381816136}
@@ -3144,7 +3144,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
+          m_IntArgument: 39
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
