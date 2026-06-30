@@ -2837,7 +2837,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 90db59cd4383d2a4b9ea6d53275fbbb8, type: 2}
   - {fileID: 11400000, guid: 60c7e7ff4befae14ca08ed3ce2848c94, type: 2}
   - {fileID: 11400000, guid: 8bb216e11fd3c034fa04a6b37ac799f9, type: 2}
-  - {fileID: 11400000, guid: 8bb216e11fd3c034fa04a6b37ac799f9, type: 2}
   - {fileID: 11400000, guid: 77f362b431db0364b953cb24515bab38, type: 2}
   - {fileID: 11400000, guid: 90cdd91d1468f0d4e86c3e106bd3f40a, type: 2}
   - {fileID: 11400000, guid: 08212c8583719cc42949f14e9b4964e8, type: 2}
@@ -2884,9 +2883,26 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2b0593c642e105a4c81345054b214133, type: 2}
   - {fileID: 11400000, guid: dbd5362d419d1474392eb7a89c593564, type: 2}
   - {fileID: 11400000, guid: 51d2a9a7d0fc71e458edd7e47f5be77f, type: 2}
+  - {fileID: 11400000, guid: dc17f781629318a4197865f6142ebc66, type: 2}
+  - {fileID: 11400000, guid: 934c5bbeeca13d943b5e4a08b2d15f02, type: 2}
+  - {fileID: 11400000, guid: 929428b17239d3e45a0b03d89f05980c, type: 2}
+  - {fileID: 11400000, guid: 6096d81c2475c6144a8ce061c672788b, type: 2}
+  - {fileID: 11400000, guid: 8a2e099435dbc6249b2603e56076e27b, type: 2}
+  - {fileID: 11400000, guid: d30fc79bb1b8c8345af2df9fe3c6ac9e, type: 2}
+  - {fileID: 11400000, guid: a3649683aac7b45428ed229838becdde, type: 2}
+  - {fileID: 11400000, guid: 5c2a305f9fd7f8c45a612794d5230b98, type: 2}
+  - {fileID: 11400000, guid: 2cca5ad01093f314eb4aaa79c3962cef, type: 2}
+  - {fileID: 11400000, guid: 6445b01ffa1b42c4f993a9291e97e010, type: 2}
+  - {fileID: 11400000, guid: 796d449975d7b4b4691bb844eb8837c7, type: 2}
+  - {fileID: 11400000, guid: a1de4b4cbd5e5c54d95940238b3e28cd, type: 2}
+  - {fileID: 11400000, guid: 6c30875ba1ccc4d4ea4623f0733b6f32, type: 2}
+  - {fileID: 11400000, guid: 5f7ed43379771834393e283adfecfc8b, type: 2}
+  - {fileID: 11400000, guid: 9db6852d836d61b4ca9d1f9fa67b6d64, type: 2}
+  - {fileID: 11400000, guid: 59ad8b61cfabf334aa203f66641419c9, type: 2}
+  - {fileID: 11400000, guid: f5e78d47644b5784f9e952577d072683, type: 2}
   nombre: {fileID: 586753836}
   textoNarracion: {fileID: 1286318226}
-  imgPersonaje: {fileID: 0}
+  imgPersonaje: {fileID: 1641119767}
   botonesUI:
   - {fileID: 1572382692}
   - {fileID: 381816136}

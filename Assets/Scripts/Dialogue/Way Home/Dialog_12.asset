@@ -17,15 +17,15 @@ MonoBehaviour:
   textoNarrativo: "Bueno, \xBFquieres contarme algo de tu d\xEDa?"
   opciones:
   - textoOpcion: Nada
-    indiceDestino: 0
+    indiceDestino: 49
     spritePersonaje: {fileID: 0}
   - textoOpcion: Vinieron a interrogarnos
-    indiceDestino: 0
+    indiceDestino: 57
     spritePersonaje: {fileID: 0}
   - textoOpcion: "\xBFQuieres una historia?"
-    indiceDestino: 0
+    indiceDestino: 19
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
+  hasDestinoNext: 0
   isDecision: 1
   indiceDestinoNext: 0
