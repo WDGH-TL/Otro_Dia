@@ -35,6 +35,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bandaging Result.unity
     guid: 2c86933cc2711fa4bae3cccd022a6f7e
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 915c97768b6b1bd439411fc4a0ca5635
+  - enabled: 1
+    path: Assets/Scenes/Last Exploraton.unity
+    guid: 5132148c4d197204a8196c9232f0c499
+  - enabled: 1
+    path: Assets/Scenes/On the way Home.unity
+    guid: 2148cbe6b77884f4b861e4662c86b295
+  - enabled: 1
+    path: Assets/Scenes/Shootout.unity
+    guid: 3b18f7e6430c2db4ea76369baa426fcd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

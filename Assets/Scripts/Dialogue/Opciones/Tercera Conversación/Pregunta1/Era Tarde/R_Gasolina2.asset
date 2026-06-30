@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13e38518f551c1458d01db32944ee73, type: 3}
+  m_Name: R_Gasolina2
+  m_EditorClassIdentifier: 
+  nombre: O
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
+  textoNarrativo: "\xBFPerd\xF3n? \xBFsin gasolina? \xBFentonces como volvieron aqu\xED
+    antes que nosotros?"
+  opciones:
+  - textoOpcion: Tomamos el bus
+    indiceDestino: 76
+    spritePersonaje: {fileID: 0}
+  - textoOpcion: "Rellenamos en la ma\xF1ana"
+    indiceDestino: 81
+    spritePersonaje: {fileID: 0}
+  esFinal: 0
+  hasDestinoNext: 1
+  isDecision: 0
+  indiceDestinoNext: 0

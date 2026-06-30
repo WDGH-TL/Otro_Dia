@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dialogo42
   m_EditorClassIdentifier: 
   nombre: B
-  characterSprite: {fileID: 0}
-  textoNarrativo: Si.... que dios les bendiga.....
+  characterSprite: {fileID: -6317595696276296963, guid: f483816404e3c544fb2702566a0ca853, type: 3}
+  textoNarrativo: Si.... que les vaya bien.....
   opciones: []
   esFinal: 0
-  hasDestinoNext: 0
+  hasDestinoNext: 1
   isDecision: 0
   indiceDestinoNext: 43

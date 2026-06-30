@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: R_Radio5
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
   textoNarrativo: "Y puedo asegurarle que desde hace unos d\xEDas los comentaristas
     deportivos radiales o est\xE1n de vacaciones, desaparecidos, o se han cambiado
-    a la tv, por lo que no podr\xEDan haber discutido de eso, por que un fan\xE1tico
+    a la tele, por lo que no podr\xEDan haber discutido de eso, por que un fan\xE1tico
     ya lo sabr\xEDa."
   opciones: []
   esFinal: 0
   hasDestinoNext: 0
   isDecision: 0
-  indiceDestinoNext: 0
+  indiceDestinoNext: 59

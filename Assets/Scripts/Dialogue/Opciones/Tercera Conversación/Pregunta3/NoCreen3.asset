@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: NoCreen3
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
-  textoNarrativo: "Hmmmmm, y \xBFen que cree usted se\xF1or B?"
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
+  textoNarrativo: "Hmmmmm, \xBFy usted se\xF1or B?"
   opciones: []
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 0
+  indiceDestinoNext: 108

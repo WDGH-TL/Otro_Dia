@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogo19
   m_EditorClassIdentifier: 
   nombre: B
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: 6860368669480833163, guid: d437242950268c345ab47f75f2011551, type: 3}
   textoNarrativo: .....
   opciones: []
   esFinal: 0

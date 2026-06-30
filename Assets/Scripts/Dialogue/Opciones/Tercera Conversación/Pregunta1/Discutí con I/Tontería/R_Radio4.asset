@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: R_Radio4
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
   textoNarrativo: "Alto, alto, alto, se\xF1ora L, primero que nada no han habido
     partidos en las \xFAltimas tres semanas, y segundo, soy un fan\xE1tico de futbol,
     y puedo asegurarle que siempre que tengo un rato libre lo escucho ya sea en televisi\xF3n
@@ -22,4 +22,4 @@ MonoBehaviour:
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 0
+  indiceDestinoNext: 58

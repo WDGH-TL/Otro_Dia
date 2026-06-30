@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Dialogo31
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -2155849965318686315, guid: 183b08f79668438479fa15648a47684e, type: 3}
   textoNarrativo: "Ahora, le importar\xEDa confirmar \xBFpor que no pudo volver a
     casa luego de llevarle las cartas a su hermano?"
   opciones:
   - textoOpcion: Era muy Tarde
-    indiceDestino: 0
+    indiceDestino: 63
     spritePersonaje: {fileID: 0}
   - textoOpcion: Discuti con I
-    indiceDestino: 0
+    indiceDestino: 46
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
-  isDecision: 0
+  hasDestinoNext: 0
+  isDecision: 1
   indiceDestinoNext: 0

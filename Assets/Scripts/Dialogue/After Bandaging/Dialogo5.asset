@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Dialogo5
   m_EditorClassIdentifier: 
   nombre: L
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -4423149253804846325, guid: 127b185d1661b3e4ca298c41718dff29, type: 3}
   textoNarrativo: "No sab\xEDa que I los hab\xEDa llamado..."
   opciones: []
   esFinal: 0

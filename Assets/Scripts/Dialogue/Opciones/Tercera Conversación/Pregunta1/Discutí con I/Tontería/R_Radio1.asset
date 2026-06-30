@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: R_Radio1
   m_EditorClassIdentifier: 
   nombre: L
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: 1666357374567006900, guid: 50139bb31384f6745bc168bdc6477f13, type: 3}
   textoNarrativo: Fue por la radio.
   opciones: []
   esFinal: 0
   hasDestinoNext: 1
   isDecision: 0
-  indiceDestinoNext: 0
+  indiceDestinoNext: 55

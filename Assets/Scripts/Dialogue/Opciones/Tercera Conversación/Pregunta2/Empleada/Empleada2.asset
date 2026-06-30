@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Empleada2
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
+  characterSprite: {fileID: -1382106150186592963, guid: 976f9ffe0898ce94bbd0f4ca8e4bee67, type: 3}
   textoNarrativo: "Me alegro de o\xEDrlo se\xF1orita, puede decirnos \xBFde donde
     le cayo ese regalo del cielo?"
   opciones:
   - textoOpcion: Iglesia
-    indiceDestino: 0
+    indiceDestino: 94
     spritePersonaje: {fileID: 0}
   - textoOpcion: Camarera
-    indiceDestino: 0
+    indiceDestino: 93
     spritePersonaje: {fileID: 0}
   esFinal: 0
-  hasDestinoNext: 1
-  isDecision: 0
+  hasDestinoNext: 0
+  isDecision: 1
   indiceDestinoNext: 0

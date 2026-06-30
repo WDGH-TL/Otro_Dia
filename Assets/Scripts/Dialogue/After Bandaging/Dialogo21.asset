@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Dialogo21
   m_EditorClassIdentifier: 
   nombre: O
-  characterSprite: {fileID: 0}
-  textoNarrativo: Perfecto, disculpen.
+  characterSprite: {fileID: -1382106150186592963, guid: 976f9ffe0898ce94bbd0f4ca8e4bee67, type: 3}
+  textoNarrativo: Perfecto, disculpennos.
   opciones: []
   esFinal: 0
   hasDestinoNext: 1
