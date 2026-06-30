@@ -4462,8 +4462,9 @@ MonoBehaviour:
   velocidad: 4
   tiempoPorSegmento: 9
   anim: {fileID: 1754780677}
-  fuenteAudio: {fileID: 1754780678}
-  sonidoCaminar: {fileID: 8300000, guid: 7250925503d24ac4184011ccade045dd, type: 3}
+  spriteRenderer: {fileID: 0}
+  spriteNormal: {fileID: -5501674637028803001, guid: cd5c9ca609c94a643ab97f58d6da4652, type: 3}
+  spriteEspecial: {fileID: -256442829346576898, guid: 00f71a5796e6b6949bb7f61d9acef2dc, type: 3}
 --- !u!95 &1754780677
 Animator:
   serializedVersion: 7

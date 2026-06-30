@@ -2,7 +2,6 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-// Esta estructura agrupa los pares de puntos y la hace visible en el Inspector
 [System.Serializable]
 public struct SegmentoRuta
 {
@@ -14,29 +13,30 @@ public class Enemy : MonoBehaviour
 {
     private bool hasEnemy = false;
 
-    [Header("Configuración de Rutas")]
-    public SegmentoRuta[] segmentos; // Un arreglo con todos tus pares de puntos
+    [Header("Configuracin de Rutas")]
+    public SegmentoRuta[] segmentos;
     public float velocidad = 2f;
-    public float tiempoPorSegmento = 5f; // El tiempo que dura la corrutina
+    public float tiempoPorSegmento = 5f;
 
     private int indiceActual = 0;
     private bool moviendose = false;
 
     public Animator anim;
 
-    [Header("Configuración de Sonido")]
-    public AudioSource fuenteAudio; // El componente que reproduce el sonido
-    public AudioClip sonidoCaminar;  // El archivo de sonido de los pasos
-
-    [Header("Configuración de Aspecto")]
-    public Sprite spriteNuevaZona; // El nuevo sprite para cuando cambie de zona
-    [Tooltip("El número de segmento a partir del cual cambiará el sprite (Empezando desde 0)")]
-    public int segmentoParaCambiarSprite = 2; // Ejemplo: cambia al empezar el segmento 2
+    [Header("Configuración de Sprites")]
+    public SpriteRenderer spriteRenderer;
+    public Sprite spriteNormal;
+    public Sprite spriteEspecial;
 
     void Start()
     {
         anim = GetComponent<Animator>();
-        // Si configuramos al menos un segmento en el Inspector, iniciamos la secuencia
+
+        if (spriteRenderer == null)
+        {
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        }
+
         if (segmentos.Length > 0)
         {
             IniciarSegmento(0);
@@ -45,7 +45,6 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        // Solo se mueve si está activo y hay segmentos válidos
         if (moviendose && segmentos.Length > 0 && indiceActual < segmentos.Length)
         {
             Transform destinoActual = segmentos[indiceActual].puntoFin;
@@ -55,26 +54,15 @@ public class Enemy : MonoBehaviour
             }
         }
 
-        if (velocidad < 0)
+        if (anim != null && anim.enabled)
         {
-            anim.SetBool("Moviendo", false);
-
-            // Si el enemigo no se mueve, detenemos el sonido
-            if (fuenteAudio != null && fuenteAudio.isPlaying)
+            if (velocidad < 0)
             {
-                fuenteAudio.Stop();
+                anim.SetBool("Moviendo", true);
             }
-        }
-        else
-        {
-            anim.SetBool("Moviendo", true);
-
-            // Si se está moviendo y el sonido NO está sonando, lo reproducimos en bucle
-            if (fuenteAudio != null && sonidoCaminar != null && !fuenteAudio.isPlaying)
+            else
             {
-                fuenteAudio.clip = sonidoCaminar;
-                fuenteAudio.loop = true; // Hace que el sonido se repita constantemente
-                fuenteAudio.Play();
+                anim.SetBool("Moviendo", false);
             }
         }
     }
@@ -83,19 +71,26 @@ public class Enemy : MonoBehaviour
     {
         indiceActual = indice;
 
-        // NUEVO: Comprobamos si ya alcanzamos o superamos el segmento indicado para cambiar el sprite
-        if (indiceActual >= segmentoParaCambiarSprite)
-        {
-            CambiarAspectoNuevaZona();
-        }
-
-        // Verificamos si aún nos quedan pares de puntos por recorrer
         if (indiceActual < segmentos.Length)
         {
+            if (spriteRenderer != null)
+            {
+                if (indiceActual == 2 || indiceActual == 3)
+                {
+                    if (anim != null) anim.enabled = false;
+                    spriteRenderer.sprite = spriteEspecial;
+                }
+                else
+                {
+                    if (anim != null) anim.enabled = true;
+                    spriteRenderer.sprite = spriteNormal;
+                }
+            }
+
             Transform inicioActual = segmentos[indiceActual].puntoInicio;
             if (inicioActual != null)
             {
-                transform.position = inicioActual.position; // Teletransporta al nuevo punto 1 (o 3, o 5...)
+                transform.position = inicioActual.position;
             }
 
             moviendose = true;
@@ -103,14 +98,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            // Si ya terminó de recorrer todos los pares de puntos, se oculta
             gameObject.SetActive(false);
-
-            // Detenemos el sonido si el objeto se desactiva
-            if (fuenteAudio != null && fuenteAudio.isPlaying)
-            {
-                fuenteAudio.Stop();
-            }
         }
     }
 
@@ -140,22 +128,10 @@ public class Enemy : MonoBehaviour
 
     public IEnumerator EnemyTimer()
     {
-        // Esperamos el tiempo definido
         yield return new WaitForSeconds(tiempoPorSegmento);
 
         moviendose = false;
 
-        // Una vez terminada la corrutina, pasamos al siguiente par de puntos
         IniciarSegmento(indiceActual + 1);
-    }
-
-    // Cambia el aspecto del sprite usando el SpriteRenderer
-    public void CambiarAspectoNuevaZona()
-    {
-        SpriteRenderer renderizador = GetComponent<SpriteRenderer>();
-        if (renderizador != null && spriteNuevaZona != null)
-        {
-            renderizador.sprite = spriteNuevaZona;
-        }
     }
 }
