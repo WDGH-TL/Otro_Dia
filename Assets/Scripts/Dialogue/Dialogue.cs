@@ -134,10 +134,15 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            btnNext.gameObject.SetActive(true);
             
-            if (btnGoToLose != null) { btnGoToLose.SetActive(false); }
-            btnChangeScene.gameObject.SetActive(false);
+            if (btnGoToLose != null) { 
+                btnGoToLose.SetActive(false);
+            }
+            else
+            {
+                btnNext.gameObject.SetActive(true);
+            }
+                btnChangeScene.gameObject.SetActive(false);
         }
     }
 
