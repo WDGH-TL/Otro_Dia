@@ -16,6 +16,7 @@ public class Dialogue : MonoBehaviour
 
     public GameObject btnNext;
     public GameObject btnChangeScene;
+    public GameObject btnGoToLose;
 
     private Textos plantillaActual;
 
@@ -25,6 +26,12 @@ public class Dialogue : MonoBehaviour
     {
         btnChangeScene.gameObject.SetActive(false);
         btnNext.gameObject.SetActive(false);
+
+        if (btnGoToLose != null)
+        {
+            btnGoToLose.SetActive(false);
+        }
+
         MostrarTexto(todasLasPlantillas[0]);
 
         if (audioCLip == null)
@@ -65,6 +72,15 @@ public class Dialogue : MonoBehaviour
             {
                 boton.SetActive(false);
             }
+            if (plantillaActual.goToLose)
+            {
+                btnChangeScene.gameObject.SetActive(false);
+                if (btnGoToLose != null) {
+                    btnGoToLose.SetActive(true);
+                }
+                   
+            }
+                
         }
         else
         {
@@ -104,16 +120,23 @@ public class Dialogue : MonoBehaviour
             {
                 btnNext.gameObject.SetActive(false);
                 btnChangeScene.gameObject.SetActive(false);
+                if (btnGoToLose != null) { btnGoToLose.SetActive(false); }
+                
             }
             else
             {
                 btnNext.gameObject.SetActive(false);
+                if (btnGoToLose != null) { btnGoToLose.SetActive(false); }
+                
                 btnChangeScene.gameObject.SetActive(true);
+
             }
         }
         else
         {
             btnNext.gameObject.SetActive(true);
+            
+            if (btnGoToLose != null) { btnGoToLose.SetActive(false); }
             btnChangeScene.gameObject.SetActive(false);
         }
     }
