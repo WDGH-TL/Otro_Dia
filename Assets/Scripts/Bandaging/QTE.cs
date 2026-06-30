@@ -4,105 +4,123 @@ using TMPro;
 
 public class QTE : MonoBehaviour
 {
-    [Header("Configuración de Movimiento")]
-    public Transform objetoMovil; // El GameObject vacío que se moverá
+    public SceneChanger sceneChanger;
+
+    public Transform objetoMovil;
     public Transform puntoA;
     public Transform puntoB;
-    public float tiempoDeViaje = 2f; // Cuánto tiempo tardará en llegar al Punto B
+    public float tiempoDeViaje = 2f;
 
-    [Header("Configuración de QTE")]
     public TextMeshProUGUI UI_QTE;
     public KeyCode teclaRequerida1 = KeyCode.F;
     public KeyCode teclaRequerida2 = KeyCode.G;
-    public float tiempoLimite = 3f;
-    public int pulsacionesNecesarias = 3;
 
-    private int pulsacionesActuales = 0;
     public bool isQTE1_success = false;
     public bool isQTE2_success = false;
 
+    private int viajeActual = 1;
+    private bool estaEnVentanaQTE = false;
+    private bool yaPresionoEnEsteViaje = false;
+
     void Start()
     {
-        // Limpiamos el texto al inicio para que no diga nada mientras se mueve
         UI_QTE.text = "";
 
-        // Iniciamos la secuencia: primero se mueve, luego activa el QTE
-        StartCoroutine(MoverYActivarQTE());
+        StartCoroutine(CicloDeMovimientoContinuo());
     }
 
-    private IEnumerator MoverYActivarQTE()
+    private IEnumerator CicloDeMovimientoContinuo()
     {
-        // Validamos que los puntos estén asignados para evitar errores
-        if (objetoMovil != null && puntoA != null && puntoB != null)
-        {
-            float tiempoPasado = 0f;
-            objetoMovil.position = puntoA.position; // Posicionamos el objeto en el inicio
+        viajeActual = 1;
+        estaEnVentanaQTE = false;
+        yaPresionoEnEsteViaje = false;
 
-            // Ciclo de movimiento basado en el tiempo
-            while (tiempoPasado < tiempoDeViaje)
-            {
-                tiempoPasado += Time.deltaTime;
-                float porcentajeCompletado = tiempoPasado / tiempoDeViaje;
+        yield return StartCoroutine(EjecutarViaje());
 
-                // Lerp interpola la posición entre A y B de forma fluida
-                objetoMovil.position = Vector3.Lerp(puntoA.position, puntoB.position, porcentajeCompletado);
+        viajeActual = 2;
+        estaEnVentanaQTE = false;
+        yaPresionoEnEsteViaje = false;
 
-                yield return null;
-            }
+        yield return StartCoroutine(EjecutarViaje());
 
-            // Aseguramos que termine exactamente en la posición del punto B
-            objetoMovil.position = puntoB.position;
-        }
-
-        // --- Terminó el movimiento, ahora empezamos el QTE ---
-
-        // Usamos .ToString() para que el texto se adapte automáticamente si cambias la tecla en el Inspector
-        UI_QTE.text = "Presiona " + teclaRequerida1.ToString();
-        StartCoroutine(RutinaQTE(teclaRequerida1));
+        FinalizarMinijuego();
     }
 
-    public IEnumerator RutinaQTE(KeyCode tecla)
+    private IEnumerator EjecutarViaje()
     {
-        float tiempoRestante = tiempoLimite;
-        pulsacionesActuales = 0;
+        float tiempoPasado = 0f;
+        objetoMovil.position = puntoA.position;
 
-        while (tiempoRestante > 0)
+        while (tiempoPasado < tiempoDeViaje)
         {
-            if (Input.GetKeyDown(tecla))
-            {
-                pulsacionesActuales++;
+            if (isQTE1_success && viajeActual == 1) break;
+            if (isQTE2_success && viajeActual == 2) break;
 
-                if (pulsacionesActuales >= pulsacionesNecesarias)
-                {
-                    ExitoQTE();
-                    yield break;
-                }
+            tiempoPasado += Time.deltaTime;
+            float porcentaje = tiempoPasado / tiempoDeViaje;
+            objetoMovil.position = Vector3.Lerp(puntoA.position, puntoB.position, porcentaje);
+
+            if (porcentaje >= 0.9f)
+            {
+                estaEnVentanaQTE = true;
+                if (viajeActual == 1 && !yaPresionoEnEsteViaje) UI_QTE.text = "¡Presiona " + teclaRequerida1.ToString() + "!";
+                if (viajeActual == 2 && !yaPresionoEnEsteViaje) UI_QTE.text = "¡Presiona " + teclaRequerida2.ToString() + "!";
             }
 
-            tiempoRestante -= Time.deltaTime;
             yield return null;
         }
 
-        FalloQTE();
+        objetoMovil.position = puntoB.position;
     }
 
-    private void ExitoQTE()
+    void Update()
     {
-        if (!isQTE1_success)
+        if (viajeActual == 1)
         {
-            isQTE1_success = true;
-            UI_QTE.text = "Presiona " + teclaRequerida2.ToString();
-            StartCoroutine(RutinaQTE(teclaRequerida2));
+            UI_QTE.text = "¡Presiona " + teclaRequerida1.ToString() + "!";
+            if (Input.GetKeyDown(teclaRequerida1) && !yaPresionoEnEsteViaje)
+            {
+                yaPresionoEnEsteViaje = true;
+                if (estaEnVentanaQTE)
+                {
+                    isQTE1_success = true;
+                    UI_QTE.text = "¡Presiona " + teclaRequerida2.ToString() + "!";
+                }
+                else
+                {
+                    UI_QTE.text = "¡Presiona " + teclaRequerida2.ToString() + "!";
+                }
+            }
+        }
+        else if (viajeActual == 2)
+        {
+            if (Input.GetKeyDown(teclaRequerida2) && !yaPresionoEnEsteViaje)
+            {
+                yaPresionoEnEsteViaje = true;
+                if (estaEnVentanaQTE)
+                {
+                    isQTE2_success = true;
+                    UI_QTE.text = "¡G ACEPTADA!";
+                }
+                else
+                {
+                    UI_QTE.text = "¡Presiona " + teclaRequerida2.ToString() + "!";
+                }
+            }
+        }
+    }
+
+    private void FinalizarMinijuego()
+    {
+        if (isQTE2_success)
+        {
+            UI_QTE.text = "Good job";
+            sceneChanger.BandagindDone();
         }
         else
         {
-            isQTE2_success = true;
-            UI_QTE.text = "Good job";
+            UI_QTE.text = "You lose";
+            sceneChanger.BandagindDone();
         }
-    }
-
-    private void FalloQTE()
-    {
-        UI_QTE.text = "You lose";
     }
 }
