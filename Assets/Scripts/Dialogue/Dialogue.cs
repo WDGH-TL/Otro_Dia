@@ -126,23 +126,26 @@ public class Dialogue : MonoBehaviour
             else
             {
                 btnNext.gameObject.SetActive(false);
-                if (btnGoToLose != null) { btnGoToLose.SetActive(false); }
-                
-                btnChangeScene.gameObject.SetActive(true);
+
+                if (plantillaActual.goToLose)
+                {
+                    if (btnGoToLose != null) { btnGoToLose.SetActive(false); }
+                }
+                else
+                {
+                    btnChangeScene.gameObject.SetActive(true);
+                }   
 
             }
         }
         else
         {
+            btnNext.gameObject.SetActive(true);
             
             if (btnGoToLose != null) { 
                 btnGoToLose.SetActive(false);
             }
-            else
-            {
-                btnNext.gameObject.SetActive(true);
-            }
-                btnChangeScene.gameObject.SetActive(false);
+            btnChangeScene.gameObject.SetActive(false);
         }
     }
 
